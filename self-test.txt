@@ -1,0 +1,2603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selftest xmlns="http://ndmsystems.com/ns/ndm" version="0.1">
+    <!-- cat -->
+    <file name="ndm:log">
+        <![CDATA[
+[I] Sep 25 22:18:36 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 22:18:37 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 22:18:43 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 22:18:44 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 22:18:49 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 22:18:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 22:18:55 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 22:18:56 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 22:18:59 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 22:19:00 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 22:49:04 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 22:49:04 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 23:18:39 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 23:18:39 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 23:18:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 23:18:51 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 23:18:55 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 23:18:55 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 23:19:00 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 23:19:00 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 23:19:06 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 23:19:06 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 23:48:36 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 23:48:37 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 23:48:42 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 23:48:43 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 23:48:49 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 23:48:49 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 23:48:52 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 23:48:53 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 23:48:57 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 23:48:58 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 25 23:49:01 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 25 23:49:02 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 00:48:34 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 00:48:36 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 01:18:28 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 01:18:28 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 01:18:42 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 01:18:42 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 01:18:51 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 01:18:52 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 01:19:05 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 01:19:05 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 01:48:29 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 01:48:30 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 01:48:34 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 01:48:34 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 01:48:38 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 01:48:38 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 01:48:41 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 01:48:41 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 01:48:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 01:48:51 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 01:48:56 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 01:48:56 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 02:18:21 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 02:18:21 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 02:18:24 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 02:18:24 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 02:18:35 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 02:18:36 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 02:18:49 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 02:18:49 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 02:48:10 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 02:48:11 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 02:48:14 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 02:48:15 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 02:48:31 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 02:48:31 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 02:48:35 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 02:48:36 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 03:18:12 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 03:18:12 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 03:47:35 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 03:47:35 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 03:47:42 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 03:47:43 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 03:47:46 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 03:47:47 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 03:48:00 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 03:48:01 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[E] Sep 26 04:00:48 upnp[162]: upnp_event_recv: recv(): Connection reset by peer
+[I] Sep 26 04:17:28 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:17:28 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:17:33 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:17:34 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:17:38 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:17:38 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:17:41 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:17:41 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:45:56 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:45:56 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:46:05 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:46:05 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:46:17 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:46:17 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:46:23 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:46:23 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:46:31 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:46:31 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:46:38 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:46:38 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:46:46 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:46:46 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:46:51 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:46:51 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:47:05 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:47:05 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:47:19 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 04:47:19 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 04:52:07 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:52:07 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:52:33 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:52:34 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:52:50 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:52:50 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:53:06 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:53:06 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:53:22 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:53:22 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:53:46 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:53:46 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:54:04 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:54:04 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:54:20 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:54:20 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:54:31 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:54:31 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:55:05 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:55:05 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:55:17 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:55:17 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:55:28 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:55:29 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:55:40 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:55:40 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:55:54 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:55:54 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:56:25 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:56:25 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:57:34 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:57:34 upnp[162]: upnp_event_send: send(): Connection timed out
+[E] Sep 26 04:57:49 upnp[162]: upnp_event_recv: recv(): Connection reset by peer
+[I] Sep 26 04:58:43 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 04:58:43 upnp[162]: upnp_event_send: send(): Connection timed out
+[E] Sep 26 05:40:42 upnp[162]: upnp_event_recv: recv(): Connection reset by peer
+[I] Sep 26 06:00:32 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 06:00:32 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 06:00:32 upnp[162]: upnp_event_send: send(): Connection timed out
+[I] Sep 26 06:07:02 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 06:07:02 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 06:07:02 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 06:07:02 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 06:15:17 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 06:15:17 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 06:15:31 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 06:15:31 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 06:37:02 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 26 06:37:03 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 06:37:03 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 06:37:03 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 06:37:03 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 06:37:03 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 06:46:32 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 06:46:33 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:07:03 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 26 07:07:03 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 07:07:03 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 07:07:03 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 07:07:03 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 07:07:03 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 07:15:16 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:15:17 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:15:19 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:15:20 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:15:38 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:15:38 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:15:55 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:15:55 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:16:00 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:16:01 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:16:07 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:16:07 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:16:10 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:16:10 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:16:24 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:16:24 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:37:03 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 26 07:37:03 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 07:37:04 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 07:37:04 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 07:37:04 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 07:37:04 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 07:45:55 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:45:55 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:46:06 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:46:06 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:46:20 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:46:20 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:46:32 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:46:33 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:46:39 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:46:39 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:46:53 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:46:54 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 07:47:12 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 07:47:12 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 08:07:04 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 26 08:07:04 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 08:07:04 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 08:07:04 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 08:07:04 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 08:07:04 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 08:16:20 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 08:16:21 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 08:16:28 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 08:16:29 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 08:16:41 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 08:16:42 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 08:17:24 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 08:17:25 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 08:17:35 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 08:17:36 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 08:37:04 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 26 08:37:04 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 08:37:04 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 08:37:05 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 08:37:05 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 08:37:05 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 08:46:49 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 08:46:49 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 08:46:52 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 08:46:52 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 08:47:01 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 08:47:01 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 08:47:46 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 08:47:46 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 08:47:56 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 08:47:56 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 08:48:01 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 08:48:01 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 08:48:10 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 08:48:10 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[E] Sep 26 08:49:15 upnp[162]: upnp_event_recv: recv(): Connection reset by peer
+[I] Sep 26 09:07:05 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 26 09:07:05 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 09:07:05 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 09:07:05 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 09:07:05 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 09:07:05 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 09:18:41 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 09:18:42 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 09:37:05 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 26 09:37:05 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 09:37:05 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 09:37:06 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 09:37:06 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 09:37:06 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 09:37:06 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 09:37:06 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 09:37:06 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 10:07:06 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 26 10:07:06 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 10:07:06 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 10:07:06 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 10:07:06 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 10:07:06 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 10:18:16 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 10:18:17 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 10:18:20 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 10:18:21 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 10:18:29 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 10:18:30 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 10:18:45 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 10:18:46 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 10:37:07 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 26 10:37:07 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 10:37:07 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 10:37:07 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 10:37:07 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 10:37:07 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 10:37:07 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 10:37:07 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 10:37:07 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 11:07:07 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 26 11:07:07 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 11:07:07 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 11:07:08 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 11:07:08 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 11:07:08 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 11:07:08 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 11:07:08 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 11:07:08 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 11:18:47 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 11:18:47 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 11:19:01 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 11:19:01 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 11:19:06 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 11:19:06 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 11:19:15 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 11:19:15 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 11:19:29 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 11:19:29 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 11:19:35 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 11:19:36 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 11:37:08 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 26 11:37:08 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 11:37:08 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 11:37:08 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 11:37:08 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 11:37:08 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 11:49:27 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 11:49:28 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 11:49:39 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 11:49:39 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 11:50:07 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 11:50:08 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:07:09 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 26 12:07:09 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 12:07:09 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 12:07:09 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 12:07:09 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 26 12:07:09 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 26 12:07:12 upnp[162]: upnp_event_send: send(): No route to host
+[I] Sep 26 12:19:23 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:19:23 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:19:37 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:19:38 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:19:44 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:19:44 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:19:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:19:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:20:03 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:20:03 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:20:07 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:20:07 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:20:11 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:20:12 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:20:16 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:20:16 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:20:20 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:20:20 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:20:23 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:20:23 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:20:37 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:20:37 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:20:41 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:20:41 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:20:45 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:20:46 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:20:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:20:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:50:07 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:50:07 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 12:50:30 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 12:50:30 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 13:07:09 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 26 13:07:09 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 26 13:20:06 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 13:20:07 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 13:20:11 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 13:20:12 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 13:20:21 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 13:20:22 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 13:20:29 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 13:20:30 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 13:20:34 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 13:20:34 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 13:20:42 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 13:20:43 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 13:20:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 13:20:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 13:20:54 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 13:20:55 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 13:21:02 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 13:21:03 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 13:21:12 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 13:21:13 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 14:36:02 ndm: Ntp::Client: time synchronized with "0.pool.ntp.org".
+[I] Sep 26 17:13:47 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 17:13:48 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 17:13:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 17:13:51 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 17:14:00 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 17:14:01 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 21:52:47 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 21:52:48 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 22:23:11 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 22:23:11 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 22:51:54 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 22:51:55 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 22:52:44 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 22:52:45 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 22:52:51 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 22:52:52 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 22:52:56 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 22:52:57 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 22:53:07 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 22:53:08 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 23:22:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 23:22:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 23:23:11 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 23:23:11 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 23:51:48 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 23:51:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 23:51:59 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 23:52:00 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 23:52:11 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 23:52:13 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 23:52:18 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 23:52:19 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 23:52:23 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 23:52:24 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 23:52:30 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 23:52:31 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 23:52:40 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 23:52:41 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 23:52:49 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 23:52:50 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 23:52:57 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 23:52:58 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 26 23:53:09 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 26 23:53:10 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[E] Sep 27 03:41:38 upnp[162]: upnp_event_recv: recv(): Connection reset by peer
+[I] Sep 27 04:20:02 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 04:20:02 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 04:20:12 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 04:20:13 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 04:20:30 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 04:20:31 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 04:45:09 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 04:45:09 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 04:45:10 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 04:45:10 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 04:45:10 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 04:45:11 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 04:45:11 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 05:15:10 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 05:15:11 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 05:15:11 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 05:15:11 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 05:15:11 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 05:15:11 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 05:18:42 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 05:18:43 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 05:18:54 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 05:18:54 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 05:19:08 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 05:19:08 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 05:45:11 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 05:45:11 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 05:45:11 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 05:45:11 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 05:45:11 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 05:45:11 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 05:45:12 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 05:45:12 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 05:45:12 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 06:15:12 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 06:15:12 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 06:15:12 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 06:15:12 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 06:15:12 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 06:15:12 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 06:45:12 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 06:45:12 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 06:45:12 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 06:45:12 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 06:45:12 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 06:45:12 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[E] Sep 27 06:46:38 upnp[162]: upnp_event_recv: recv(): Connection reset by peer
+[I] Sep 27 06:47:10 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 06:47:10 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 07:15:13 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 07:15:13 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 07:15:13 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 07:15:14 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 07:15:14 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 07:15:14 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 07:15:14 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 07:15:14 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 07:15:14 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 07:15:14 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 07:15:14 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 07:15:14 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 07:45:14 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 07:45:14 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 07:45:14 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 07:45:14 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 07:45:14 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 07:45:14 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 07:45:34 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 07:45:34 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 07:45:48 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 07:45:48 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 07:45:54 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 07:45:54 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 07:46:01 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 07:46:02 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 07:46:06 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 07:46:06 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 07:46:20 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 07:46:20 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 07:46:37 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 07:46:37 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 07:46:55 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 07:46:55 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 08:15:14 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 08:15:14 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 08:15:14 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 08:15:15 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 08:15:15 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 08:15:15 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 08:15:32 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 08:15:32 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 08:45:15 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 08:45:15 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 08:45:15 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 08:45:15 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 08:45:15 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 08:45:15 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 08:45:48 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 08:45:48 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 08:45:51 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 08:45:52 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 08:45:59 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 08:45:59 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 08:46:04 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 08:46:05 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 08:46:09 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 08:46:09 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 08:46:24 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 08:46:25 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 08:46:32 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 08:46:32 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 08:46:42 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 08:46:43 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 09:15:15 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 09:15:15 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 09:15:15 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 09:15:16 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 09:15:16 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 09:15:16 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 09:15:52 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 09:15:52 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 09:15:56 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 09:15:56 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 09:16:00 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 09:16:01 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 09:45:16 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 09:45:16 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 09:45:16 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 09:45:16 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 09:45:16 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 09:45:16 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 10:15:16 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 10:15:16 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 10:15:16 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 10:15:16 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 10:15:16 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 10:15:17 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 10:45:17 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 10:45:17 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 10:45:17 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 10:45:17 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 10:45:17 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 10:45:17 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 10:46:38 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 10:46:38 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 10:47:14 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 10:47:14 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 10:47:18 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 10:47:19 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 10:47:23 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 10:47:23 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 10:47:31 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 10:47:35 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) Pairwise Key Handshaking timeout.
+[I] Sep 27 10:47:35 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had deauthenticated.
+[I] Sep 27 10:47:35 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 10:47:35 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[E] Sep 27 11:09:58 upnp[162]: upnp_event_recv: recv(): Connection reset by peer
+[I] Sep 27 11:15:17 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 11:15:17 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 11:15:17 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 11:15:17 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 11:15:17 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 11:15:17 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 11:17:06 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 11:17:06 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 11:45:18 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 11:45:18 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 11:45:18 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 11:45:18 ndm: UPnP::Manager: redirect and forward rules deleted: udp 20383.
+[I] Sep 27 11:45:18 ndm: UPnP::Manager: redirect rule added: udp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 11:45:18 ndm: UPnP::Manager: forward rule added: udp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 11:45:18 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 11:45:18 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 11:45:19 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 11:45:19 ndm: UPnP::Manager: redirect and forward rules deleted: tcp 20383.
+[I] Sep 27 11:45:19 ndm: UPnP::Manager: redirect rule added: tcp Switch0/VLAN3:20383 -> 10.9.10.16:20383.
+[I] Sep 27 11:45:19 ndm: UPnP::Manager: forward rule added: tcp Switch0/VLAN3 -> 10.9.10.16:20383.
+[I] Sep 27 11:47:00 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 11:47:00 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 11:47:08 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 11:47:08 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 11:47:14 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 11:47:14 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 11:47:18 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) had associated successfully.
+[I] Sep 27 11:47:19 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:f5:86:b6) set key done in WPA2/WPA2PSK.
+[I] Sep 27 11:47:44 wmond: WifiMaster0/AccessPoint0: (RT2860) STA(b0:e8:92:]]>
+    </file>
+    <file name="proc:modules">
+        <![CDATA[
+igmpsn 53520 0 - Live 0x80d80000
+rt2860v2_ap 858368 1 - Live 0x80c00000 (P)
+resetnds 1296 0 - Live 0x819d2000 (P)
+rtled 4928 7 rt2860v2_ap, Live 0x819d8000
+ralink_wdt 832 0 - Live 0x819cd000
+
+]]>
+    </file>
+    <file name="proc:interrupts">
+        <![CDATA[
+           CPU0       
+  3:  128349188       Surfboard  eth2
+  4:   56644912       Surfboard  ra0
+  5: 2135510467       Surfboard  timer
+ 12:    2114561       Surfboard  serial
+
+ERR:          0
+
+]]>
+    </file>
+    <file name="proc:net/dev">
+        <![CDATA[
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+  eth2:         76506041528        117035767    0    0    0     0          0         0          75850889840        116044165    0    0    0     0       0          0
+    lo:           111237626          1051479    0    0    0     0          0         0            111237626          1051479    0    0    0     0       0          0
+ tunl0:                   0                0    0    0    0     0          0         0                    0                0    0    0    0     0       0          0
+ezconfig0:                   0                0    0    0    0     0          0         0                    0                0    0    0    0     0       0          0
+   ra0:            74451173           758980    4    0    0     0          0     12261            676752434           702193    0    0    0     0       0          0
+   ra1:                   0                0    0    0    0     0          0         0                    0                0    0    0    0     0       0          0
+   ra2:                   0                0    0    0    0     0          0         0                    0                0    0    0    0     0       0          0
+   ra3:                   0                0    0    0    0     0          0         0                    0                0    0    0    0     0       0          0
+apcli0:                   0                0    0    0    0     0          0         0                    0                0    0    0    0     0       0          0
+eth2.1:          9387323774         54238880    0    0    0     0          0    214113          66594440259         64020780    0    0    0     0       0          0
+eth2.2:                   0                0    0    0    0     0          0         0               308244             4843    0    0    0     0       0          0
+eth2.3:         65480216966         62796886    0    0    0     0          0         0           9116547094         52018542    0    0    0     0       0          0
+   br0:          8511837150         53635340    0    0    0     0          0    530113          66294366430         63508104    0    0    0     0       0          0
+
+]]>
+    </file>
+    <file name="proc:net/ip_conntrack">
+        <![CDATA[
+tcp      6 33 SYN_SENT src=10.9.10.65 dst=198.175.125.142 sport=50544 dport=443 packets=3 bytes=152 [UNREPLIED] src=198.175.125.142 dst=192.168.10.223 sport=443 dport=50544 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 33 SYN_SENT src=10.9.10.65 dst=198.175.125.142 sport=50543 dport=443 packets=3 bytes=152 [UNREPLIED] src=198.175.125.142 dst=192.168.10.223 sport=443 dport=50543 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 12 SYN_SENT src=10.9.10.65 dst=198.175.125.142 sport=50540 dport=443 packets=3 bytes=152 [UNREPLIED] src=198.175.125.142 dst=192.168.10.223 sport=443 dport=50540 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 12 SYN_SENT src=10.9.10.65 dst=198.175.125.142 sport=50539 dport=443 packets=3 bytes=152 [UNREPLIED] src=198.175.125.142 dst=192.168.10.223 sport=443 dport=50539 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 113 SYN_SENT src=10.9.10.16 dst=176.197.43.122 sport=51238 dport=14623 packets=3 bytes=152 [UNREPLIED] src=176.197.43.122 dst=192.168.10.223 sport=14623 dport=51238 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 52 TIME_WAIT src=10.9.10.21 dst=140.205.195.80 sport=56579 dport=80 packets=7 bytes=774 src=140.205.195.80 dst=192.168.10.223 sport=80 dport=56579 packets=5 bytes=518 [ASSURED] mark=0 secmark=0 use=1
+udp      17 43 src=10.9.10.16 dst=176.197.43.122 sport=27512 dport=14623 packets=2 bytes=96 [UNREPLIED] src=176.197.43.122 dst=192.168.10.223 sport=14623 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=173.194.222.95 sport=52968 dport=443 packets=17 bytes=1402 src=173.194.222.95 dst=192.168.10.223 sport=443 dport=52968 packets=18 bytes=6504 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 13 SYN_SENT src=10.9.10.16 dst=92.47.222.33 sport=50976 dport=51328 packets=2 bytes=100 [UNREPLIED] src=92.47.222.33 dst=192.168.10.223 sport=51328 dport=50976 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 96 src=10.9.10.16 dst=62.183.124.15 sport=27512 dport=26581 packets=9 bytes=958 src=62.183.124.15 dst=192.168.10.223 sport=26581 dport=27512 packets=7 bytes=1058 [ASSURED] mark=0 secmark=0 use=1
+udp      17 23 src=10.9.10.20 dst=5.53.21.23 sport=27032 dport=27032 packets=1 bytes=132 src=5.53.21.23 dst=192.168.10.223 sport=27032 dport=27032 packets=1 bytes=338 mark=0 secmark=0 use=1
+udp      17 103 src=10.9.10.20 dst=123.26.59.186 sport=27032 dport=7138 packets=26 bytes=7247 src=123.26.59.186 dst=192.168.10.223 sport=7138 dport=27032 packets=14 bytes=2501 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 98 SYN_SENT src=10.9.10.16 dst=46.159.242.35 sport=51197 dport=17396 packets=3 bytes=152 [UNREPLIED] src=46.159.242.35 dst=192.168.10.223 sport=17396 dport=51197 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 72 SYN_SENT src=10.9.10.16 dst=185.43.191.242 sport=51135 dport=22389 packets=3 bytes=152 [UNREPLIED] src=185.43.191.242 dst=192.168.10.223 sport=22389 dport=51135 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 965 ESTABLISHED src=10.9.10.21 dst=88.221.132.183 sport=44161 dport=80 packets=423 bytes=28953 src=88.221.132.183 dst=192.168.10.223 sport=80 dport=44161 packets=429 bytes=459967 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 23 SYN_SENT src=10.9.10.16 dst=91.206.54.54 sport=51002 dport=24982 packets=3 bytes=152 [UNREPLIED] src=91.206.54.54 dst=192.168.10.223 sport=24982 dport=51002 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 90 SYN_SENT src=10.9.10.16 dst=2.93.254.37 sport=51178 dport=56743 packets=3 bytes=152 [UNREPLIED] src=2.93.254.37 dst=192.168.10.223 sport=56743 dport=51178 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=185.5.137.243 sport=53005 dport=443 packets=4 bytes=172 src=185.5.137.243 dst=192.168.10.223 sport=443 dport=53005 packets=3 bytes=128 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=185.5.137.243 sport=52999 dport=443 packets=22 bytes=2701 src=185.5.137.243 dst=192.168.10.223 sport=443 dport=52999 packets=18 bytes=5662 [ASSURED] mark=0 secmark=0 use=1
+udp      17 22 src=10.9.10.16 dst=109.163.245.109 sport=27512 dport=46725 packets=3 bytes=228 [UNREPLIED] src=109.163.245.109 dst=192.168.10.223 sport=46725 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 90 TIME_WAIT src=10.9.10.20 dst=195.122.177.162 sport=49711 dport=443 packets=6 bytes=726 src=195.122.177.162 dst=192.168.10.223 sport=443 dport=49711 packets=4 bytes=291 [ASSURED] mark=0 secmark=0 use=1
+udp      17 4 src=10.9.10.16 dst=109.174.113.241 sport=27512 dport=37295 packets=1 bytes=132 [UNREPLIED] src=109.174.113.241 dst=192.168.10.223 sport=37295 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 114 SYN_SENT src=10.9.10.16 dst=188.234.109.174 sport=51250 dport=21265 packets=2 bytes=104 [UNREPLIED] src=188.234.109.174 dst=192.168.10.223 sport=21265 dport=51250 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 80 SYN_SENT src=10.9.10.16 dst=217.118.81.24 sport=51146 dport=10211 packets=3 bytes=152 [UNREPLIED] src=217.118.81.24 dst=192.168.10.223 sport=10211 dport=51146 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 125 src=10.9.10.16 dst=93.85.48.164 sport=27512 dport=57322 packets=3 bytes=212 src=93.85.48.164 dst=192.168.10.223 sport=57322 dport=27512 packets=3 bytes=144 [ASSURED] mark=0 secmark=0 use=1
+udp      17 15 src=10.9.10.16 dst=37.214.142.219 sport=27512 dport=29112 packets=3 bytes=228 [UNREPLIED] src=37.214.142.219 dst=192.168.10.223 sport=29112 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 38 src=10.9.10.16 dst=78.111.189.159 sport=27512 dport=64163 packets=2 bytes=96 [UNREPLIED] src=78.111.189.159 dst=192.168.10.223 sport=64163 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 154 src=10.9.10.16 dst=212.164.157.60 sport=27512 dport=23614 packets=3 bytes=228 src=212.164.157.60 dst=192.168.10.223 sport=23614 dport=27512 packets=2 bytes=386 [ASSURED] mark=0 secmark=0 use=1
+udp      17 51 src=10.9.10.16 dst=46.22.49.138 sport=27512 dport=24875 packets=3 bytes=228 [UNREPLIED] src=46.22.49.138 dst=192.168.10.223 sport=24875 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 92 SYN_SENT src=10.9.10.16 dst=92.37.142.204 sport=51185 dport=49777 packets=3 bytes=152 [UNREPLIED] src=92.37.142.204 dst=192.168.10.223 sport=49777 dport=51185 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 98 SYN_SENT src=10.9.10.16 dst=78.181.3.110 sport=51194 dport=65203 packets=3 bytes=152 [UNREPLIED] src=78.181.3.110 dst=192.168.10.223 sport=65203 dport=51194 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 9 src=10.9.10.200 dst=239.255.255.250 sport=49473 dport=1900 packets=12 bytes=1896 [UNREPLIED] src=239.255.255.250 dst=10.9.10.200 sport=1900 dport=49473 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 17 src=10.9.10.16 dst=188.162.166.1 sport=27512 dport=47687 packets=1 bytes=132 [UNREPLIED] src=188.162.166.1 dst=192.168.10.223 sport=47687 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 85 SYN_SENT src=10.9.10.20 dst=37.212.137.114 sport=49721 dport=36844 packets=3 bytes=152 [UNREPLIED] src=37.212.137.114 dst=192.168.10.223 sport=36844 dport=49721 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 42 src=10.9.10.16 dst=195.246.118.226 sport=27512 dport=1703 packets=3 bytes=228 [UNREPLIED] src=195.246.118.226 dst=192.168.10.223 sport=1703 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 28 src=10.9.10.16 dst=178.129.124.158 sport=27512 dport=13293 packets=1 bytes=132 src=178.129.124.158 dst=192.168.10.223 sport=13293 dport=27512 packets=1 bytes=338 mark=0 secmark=0 use=1
+udp      17 20 src=10.9.10.16 dst=2.93.254.37 sport=27512 dport=56743 packets=2 bytes=96 [UNREPLIED] src=2.93.254.37 dst=192.168.10.223 sport=56743 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 70 src=10.9.10.16 dst=85.110.228.140 sport=27512 dport=10038 packets=9 bytes=958 src=85.110.228.140 dst=192.168.10.223 sport=10038 dport=27512 packets=5 bytes=672 [ASSURED] mark=0 secmark=0 use=1
+udp      17 20 src=10.9.10.16 dst=109.110.42.81 sport=27512 dport=1028 packets=2 bytes=96 [UNREPLIED] src=109.110.42.81 dst=192.168.10.223 sport=1028 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 105 SYN_SENT src=10.9.10.16 dst=123.120.174.197 sport=51212 dport=22765 packets=3 bytes=152 [UNREPLIED] src=123.120.174.197 dst=192.168.10.223 sport=22765 dport=51212 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 13 src=10.9.10.16 dst=2.134.187.179 sport=27512 dport=15938 packets=8 bytes=1116 src=2.134.187.179 dst=192.168.10.223 sport=15938 dport=27512 packets=8 bytes=1264 [ASSURED] mark=0 secmark=0 use=1
+udp      17 57 src=10.9.10.16 dst=92.46.235.254 sport=27512 dport=36897 packets=1 bytes=48 [UNREPLIED] src=92.46.235.254 dst=192.168.10.223 sport=36897 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 35 src=10.9.10.16 dst=46.61.242.155 sport=27512 dport=59243 packets=1 bytes=132 [UNREPLIED] src=46.61.242.155 dst=192.168.10.223 sport=59243 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 161 src=10.9.10.16 dst=101.51.64.144 sport=27512 dport=52976 packets=8 bytes=1202 src=101.51.64.144 dst=192.168.10.223 sport=52976 dport=27512 packets=5 bytes=672 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 107 SYN_SENT src=10.9.10.16 dst=37.190.37.30 sport=51216 dport=64667 packets=3 bytes=152 [UNREPLIED] src=37.190.37.30 dst=192.168.10.223 sport=64667 dport=51216 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 72 SYN_SENT src=10.9.10.16 dst=217.118.81.26 sport=51136 dport=32882 packets=3 bytes=152 [UNREPLIED] src=217.118.81.26 dst=192.168.10.223 sport=32882 dport=51136 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 15 src=10.9.10.20 dst=23.16.167.86 sport=27032 dport=27032 packets=1 bytes=48 [UNREPLIED] src=23.16.167.86 dst=192.168.10.223 sport=27032 dport=27032 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=88.212.201.205 sport=53008 dport=443 packets=9 bytes=1428 src=88.212.201.205 dst=192.168.10.223 sport=443 dport=53008 packets=8 bytes=3470 [ASSURED] mark=0 secmark=0 use=1
+udp      17 38 src=10.9.10.16 dst=5.141.201.161 sport=27512 dport=7627 packets=1 bytes=132 [UNREPLIED] src=5.141.201.161 dst=192.168.10.223 sport=7627 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 57 src=10.9.10.16 dst=83.149.37.33 sport=27512 dport=12853 packets=1 bytes=132 [UNREPLIED] src=83.149.37.33 dst=192.168.10.223 sport=12853 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 119 SYN_SENT src=10.9.10.16 dst=94.50.8.19 sport=51247 dport=39005 packets=3 bytes=152 [UNREPLIED] src=94.50.8.19 dst=192.168.10.223 sport=39005 dport=51247 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 8 src=10.9.10.16 dst=178.19.253.68 sport=27512 dport=39725 packets=2 bytes=96 [UNREPLIED] src=178.19.253.68 dst=192.168.10.223 sport=39725 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 26 src=10.9.10.16 dst=91.224.68.158 sport=27512 dport=52740 packets=3 bytes=228 [UNREPLIED] src=91.224.68.158 dst=192.168.10.223 sport=52740 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 148 src=10.9.10.16 dst=212.118.36.14 sport=27512 dport=60009 packets=8 bytes=724 src=212.118.36.14 dst=192.168.10.223 sport=60009 dport=27512 packets=1 bytes=48 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 966 ESTABLISHED src=10.9.10.21 dst=151.101.84.84 sport=38817 dport=80 packets=12 bytes=807 src=151.101.84.84 dst=192.168.10.223 sport=80 dport=38817 packets=11 bytes=10087 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 966 ESTABLISHED src=10.9.10.21 dst=151.101.84.84 sport=58638 dport=80 packets=52 bytes=3464 src=151.101.84.84 dst=192.168.10.223 sport=80 dport=58638 packets=51 bytes=53666 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 967 ESTABLISHED src=10.9.10.21 dst=151.101.84.84 sport=34955 dport=80 packets=235 bytes=15073 src=151.101.84.84 dst=192.168.10.223 sport=80 dport=34955 packets=274 bytes=314279 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 1040 ESTABLISHED src=10.9.10.21 dst=54.154.41.21 sport=36335 dport=5223 packets=11 bytes=811 src=54.154.41.21 dst=192.168.10.223 sport=5223 dport=36335 packets=7 bytes=565 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 82 SYN_SENT src=10.9.10.16 dst=213.87.121.51 sport=51155 dport=43912 packets=3 bytes=152 [UNREPLIED] src=213.87.121.51 dst=192.168.10.223 sport=43912 dport=51155 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 177 src=10.9.10.16 dst=77.221.220.227 sport=27512 dport=13174 packets=10 bytes=1670 src=77.221.220.227 dst=192.168.10.223 sport=13174 dport=27512 packets=6 bytes=1094 [ASSURED] mark=0 secmark=0 use=1
+udp      17 7 src=10.9.10.16 dst=46.63.72.159 sport=27512 dport=47661 packets=2 bytes=96 src=46.63.72.159 dst=192.168.10.223 sport=47661 dport=27512 packets=1 bytes=48 mark=0 secmark=0 use=1
+tcp      6 84 SYN_SENT src=10.9.10.16 dst=37.45.201.215 sport=51159 dport=2430 packets=3 bytes=152 [UNREPLIED] src=37.45.201.215 dst=192.168.10.223 sport=2430 dport=51159 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 50 TIME_WAIT src=10.9.10.16 dst=62.128.100.132 sport=51036 dport=443 packets=6 bytes=566 src=62.128.100.132 dst=192.168.10.223 sport=443 dport=51036 packets=4 bytes=436 [ASSURED] mark=0 secmark=0 use=1
+udp      17 78 src=10.9.10.16 dst=211.87.234.121 sport=27512 dport=51413 packets=2 bytes=240 src=211.87.234.121 dst=192.168.10.223 sport=51413 dport=27512 packets=2 bytes=371 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 118 SYN_SENT src=10.9.10.16 dst=212.119.233.78 sport=51259 dport=33878 packets=2 bytes=104 [UNREPLIED] src=212.119.233.78 dst=192.168.10.223 sport=33878 dport=51259 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 73 src=10.9.10.16 dst=76.119.69.80 sport=27512 dport=40501 packets=2 bytes=470 src=76.119.69.80 dst=192.168.10.223 sport=40501 dport=27512 packets=2 bytes=470 [ASSURED] mark=0 secmark=0 use=1
+udp      17 54 src=10.9.10.16 dst=176.214.7.183 sport=27512 dport=41786 packets=1 bytes=132 [UNREPLIED] src=176.214.7.183 dst=192.168.10.223 sport=41786 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 12 SYN_SENT src=10.9.10.16 dst=185.82.216.115 sport=50969 dport=44088 packets=3 bytes=152 [UNREPLIED] src=185.82.216.115 dst=192.168.10.223 sport=44088 dport=50969 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 163 src=10.9.10.16 dst=99.242.172.214 sport=27512 dport=63641 packets=7 bytes=778 src=99.242.172.214 dst=192.168.10.223 sport=63641 dport=27512 packets=5 bytes=672 [ASSURED] mark=0 secmark=0 use=1
+udp      17 31 src=10.9.10.16 dst=176.125.124.141 sport=27512 dport=64343 packets=1 bytes=132 [UNREPLIED] src=176.125.124.141 dst=192.168.10.223 sport=64343 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 15 src=10.9.10.16 dst=217.118.81.22 sport=27512 dport=52010 packets=3 bytes=228 [UNREPLIED] src=217.118.81.22 dst=192.168.10.223 sport=52010 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 92 src=10.9.10.16 dst=84.51.113.198 sport=27512 dport=35207 packets=8 bytes=910 src=84.51.113.198 dst=192.168.10.223 sport=35207 dport=27512 packets=6 bytes=624 [ASSURED] mark=0 secmark=0 use=1
+udp      17 14 src=10.9.10.121 dst=239.255.255.250 sport=58203 dport=1900 packets=5 bytes=805 [UNREPLIED] src=239.255.255.250 dst=10.9.10.121 sport=1900 dport=58203 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 64 SYN_SENT src=10.9.10.20 dst=23.126.66.144 sport=49700 dport=27032 packets=3 bytes=152 [UNREPLIED] src=23.126.66.144 dst=192.168.10.223 sport=27032 dport=49700 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 1193 ESTABLISHED src=10.9.10.21 dst=108.177.14.188 sport=53367 dport=5228 packets=44 bytes=4259 src=108.177.14.188 dst=192.168.10.223 sport=5228 dport=53367 packets=33 bytes=6906 [ASSURED] mark=0 secmark=0 use=1
+udp      17 55 src=10.9.10.16 dst=95.167.178.60 sport=27512 dport=47962 packets=2 bytes=96 [UNREPLIED] src=95.167.178.60 dst=192.168.10.223 sport=47962 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 55 src=10.9.10.16 dst=88.233.46.49 sport=27512 dport=61594 packets=2 bytes=96 [UNREPLIED] src=88.233.46.49 dst=192.168.10.223 sport=61594 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 19 src=10.9.10.16 dst=81.163.126.83 sport=27512 dport=43686 packets=2 bytes=96 [UNREPLIED] src=81.163.126.83 dst=192.168.10.223 sport=43686 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 51 src=10.9.10.16 dst=95.70.3.184 sport=27512 dport=15542 packets=1 bytes=132 [UNREPLIED] src=95.70.3.184 dst=192.168.10.223 sport=15542 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 105 SYN_SENT src=10.9.10.16 dst=92.125.31.156 sport=51210 dport=37741 packets=3 bytes=152 [UNREPLIED] src=92.125.31.156 dst=192.168.10.223 sport=37741 dport=51210 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 84 SYN_SENT src=10.9.10.16 dst=85.115.243.101 sport=51161 dport=20587 packets=3 bytes=152 [UNREPLIED] src=85.115.243.101 dst=192.168.10.223 sport=20587 dport=51161 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 0 src=10.9.10.16 dst=37.214.68.114 sport=27512 dport=64426 packets=3 bytes=228 [UNREPLIED] src=37.214.68.114 dst=192.168.10.223 sport=64426 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 1175 ESTABLISHED src=10.9.10.18 dst=94.100.191.49 sport=1080 dport=2042 packets=746 bytes=60217 src=94.100.191.49 dst=192.168.10.223 sport=2042 dport=1080 packets=649 bytes=62095 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 69 SYN_SENT src=10.9.10.16 dst=78.189.20.159 sport=51120 dport=52027 packets=3 bytes=152 [UNREPLIED] src=78.189.20.159 dst=192.168.10.223 sport=52027 dport=51120 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 55 SYN_SENT src=10.9.10.16 dst=95.70.28.102 sport=51085 dport=35519 packets=3 bytes=152 [UNREPLIED] src=95.70.28.102 dst=192.168.10.223 sport=35519 dport=51085 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 11 src=10.9.10.16 dst=94.228.207.116 sport=27512 dport=49566 packets=2 bytes=96 [UNREPLIED] src=94.228.207.116 dst=192.168.10.223 sport=49566 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 69 SYN_SENT src=10.9.10.16 dst=5.227.15.150 sport=51121 dport=1026 packets=3 bytes=152 [UNREPLIED] src=5.227.15.150 dst=192.168.10.223 sport=1026 dport=51121 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 2 SYN_SENT src=10.9.10.16 dst=146.158.5.81 sport=50947 dport=17953 packets=3 bytes=152 [UNREPLIED] src=146.158.5.81 dst=192.168.10.223 sport=17953 dport=50947 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 57 src=10.9.10.16 dst=89.23.174.61 sport=27512 dport=41193 packets=1 bytes=132 [UNREPLIED] src=89.23.174.61 dst=192.168.10.223 sport=41193 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 20 SYN_SENT src=10.9.10.16 dst=178.217.25.54 sport=50992 dport=20631 packets=3 bytes=152 [UNREPLIED] src=178.217.25.54 dst=192.168.10.223 sport=20631 dport=50992 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 34 TIME_WAIT src=10.9.10.121 dst=54.76.137.194 sport=53017 dport=80 packets=5 bytes=530 src=54.76.137.194 dst=192.168.10.223 sport=80 dport=53017 packets=5 bytes=981 [ASSURED] mark=0 secmark=0 use=1
+udp      17 29 src=10.9.10.16 dst=77.82.201.101 sport=27512 dport=56304 packets=1 bytes=132 [UNREPLIED] src=77.82.201.101 dst=192.168.10.223 sport=56304 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 91 SYN_SENT src=10.9.10.16 dst=46.241.83.167 sport=51184 dport=41563 packets=3 bytes=152 [UNREPLIED] src=46.241.83.167 dst=192.168.10.223 sport=41563 dport=51184 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 14 src=10.9.10.16 dst=195.5.50.86 sport=27512 dport=14301 packets=1 bytes=132 [UNREPLIED] src=195.5.50.86 dst=192.168.10.223 sport=14301 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 22 src=10.9.10.16 dst=213.87.130.16 sport=27512 dport=28188 packets=8 bytes=1117 src=213.87.130.16 dst=192.168.10.223 sport=28188 dport=27512 packets=6 bytes=804 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 17 SYN_SENT src=10.9.10.16 dst=2.95.248.34 sport=50982 dport=24763 packets=3 bytes=152 [UNREPLIED] src=2.95.248.34 dst=192.168.10.223 sport=24763 dport=50982 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 10 src=10.9.10.16 dst=46.165.11.189 sport=27512 dport=60345 packets=3 bytes=228 [UNREPLIED] src=46.165.11.189 dst=192.168.10.223 sport=60345 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 110 SYN_SENT src=10.9.10.16 dst=195.246.118.226 sport=51224 dport=1703 packets=3 bytes=152 [UNREPLIED] src=195.246.118.226 dst=192.168.10.223 sport=1703 dport=51224 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 1 src=10.9.10.16 dst=85.117.121.175 sport=27512 dport=23845 packets=3 bytes=228 [UNREPLIED] src=85.117.121.175 dst=192.168.10.223 sport=23845 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=173.194.44.69 sport=52967 dport=443 packets=15 bytes=1314 src=173.194.44.69 dst=192.168.10.223 sport=443 dport=52967 packets=15 bytes=5421 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 1077 ESTABLISHED src=10.9.10.21 dst=95.213.11.26 sport=47616 dport=443 packets=39 bytes=2879 src=95.213.11.26 dst=192.168.10.223 sport=443 dport=47616 packets=58 bytes=66789 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 1077 ESTABLISHED src=10.9.10.21 dst=95.213.11.26 sport=43474 dport=443 packets=45 bytes=3193 src=95.213.11.26 dst=192.168.10.223 sport=443 dport=43474 packets=64 bytes=74400 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 1077 ESTABLISHED src=10.9.10.21 dst=95.213.11.26 sport=43991 dport=443 packets=44 bytes=3142 src=95.213.11.26 dst=192.168.10.223 sport=443 dport=43991 packets=63 bytes=73617 [ASSURED] mark=0 secmark=0 use=1
+udp      17 118 src=10.9.10.16 dst=176.38.154.173 sport=27512 dport=39458 packets=9 bytes=1248 src=176.38.154.173 dst=192.168.10.223 sport=39458 dport=27512 packets=6 bytes=1094 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 44 SYN_SENT src=10.9.10.16 dst=176.65.120.182 sport=51055 dport=47023 packets=3 bytes=152 [UNREPLIED] src=176.65.120.182 dst=192.168.10.223 sport=47023 dport=51055 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 62 SYN_SENT src=10.9.10.16 dst=77.222.102.121 sport=51105 dport=11794 packets=3 bytes=152 [UNREPLIED] src=77.222.102.121 dst=192.168.10.223 sport=11794 dport=51105 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 30 SYN_SENT src=10.9.10.16 dst=81.18.35.130 sport=51019 dport=20775 packets=3 bytes=152 [UNREPLIED] src=81.18.35.130 dst=192.168.10.223 sport=20775 dport=51019 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 109 SYN_SENT src=10.9.10.16 dst=89.106.198.27 sport=51223 dport=12008 packets=3 bytes=152 [UNREPLIED] src=89.106.198.27 dst=192.168.10.223 sport=12008 dport=51223 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 72 SYN_SENT src=10.9.10.16 dst=193.106.170.45 sport=51134 dport=20387 packets=3 bytes=152 [UNREPLIED] src=193.106.170.45 dst=192.168.10.223 sport=20387 dport=51134 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 96 SYN_SENT src=10.9.10.16 dst=5.141.206.103 sport=51192 dport=48406 packets=3 bytes=152 [UNREPLIED] src=5.141.206.103 dst=192.168.10.223 sport=48406 dport=51192 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 1196 ESTABLISHED src=10.9.10.21 dst=52.0.253.82 sport=39373 dport=4244 packets=34 bytes=3503 src=52.0.253.82 dst=192.168.10.223 sport=4244 dport=39373 packets=24 bytes=4192 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 62 TIME_WAIT src=10.9.10.200 dst=10.9.10.254 sport=49796 dport=49152 packets=5 bytes=424 src=10.9.10.254 dst=10.9.10.200 sport=49152 dport=49796 packets=5 bytes=369 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 61 TIME_WAIT src=10.9.10.200 dst=10.9.10.254 sport=49795 dport=49152 packets=6 bytes=852 src=10.9.10.254 dst=10.9.10.200 sport=49152 dport=49795 packets=6 bytes=757 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 61 TIME_WAIT src=10.9.10.200 dst=10.9.10.254 sport=49794 dport=49152 packets=6 bytes=862 src=10.9.10.254 dst=10.9.10.200 sport=49152 dport=49794 packets=6 bytes=811 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 61 TIME_WAIT src=10.9.10.200 dst=10.9.10.254 sport=49793 dport=49152 packets=5 bytes=477 src=10.9.10.254 dst=10.9.10.200 sport=49152 dport=49793 packets=5 bytes=422 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 61 TIME_WAIT src=10.9.10.200 dst=10.9.10.254 sport=49792 dport=49152 packets=7 bytes=487 src=10.9.10.254 dst=10.9.10.200 sport=49152 dport=49792 packets=9 bytes=8916 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 61 TIME_WAIT src=10.9.10.200 dst=10.9.10.254 sport=49791 dport=49152 packets=6 bytes=448 src=10.9.10.254 dst=10.9.10.200 sport=49152 dport=49791 packets=6 bytes=3270 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 61 TIME_WAIT src=10.9.10.200 dst=10.9.10.254 sport=49790 dport=49152 packets=5 bytes=479 src=10.9.10.254 dst=10.9.10.200 sport=49152 dport=49790 packets=5 bytes=422 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 61 TIME_WAIT src=10.9.10.200 dst=10.9.10.254 sport=49789 dport=49152 packets=6 bytes=446 src=10.9.10.254 dst=10.9.10.200 sport=49152 dport=49789 packets=6 bytes=3338 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 61 TIME_WAIT src=10.9.10.200 dst=10.9.10.254 sport=49788 dport=49152 packets=5 bytes=474 src=10.9.10.254 dst=10.9.10.200 sport=49152 dport=49788 packets=5 bytes=422 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 61 TIME_WAIT src=10.9.10.200 dst=10.9.10.254 sport=49787 dport=49152 packets=5 bytes=403 src=10.9.10.254 dst=10.9.10.200 sport=49152 dport=49787 packets=5 bytes=1149 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 61 TIME_WAIT src=10.9.10.200 dst=10.9.10.254 sport=49786 dport=49152 packets=6 bytes=448 src=10.9.10.254 dst=10.9.10.200 sport=49152 dport=49786 packets=6 bytes=3270 [ASSURED] mark=0 secmark=0 use=1
+udp      17 2 src=10.9.10.16 dst=185.43.191.242 sport=27512 dport=22389 packets=2 bytes=96 [UNREPLIED] src=185.43.191.242 dst=192.168.10.223 sport=22389 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 31 src=10.9.10.16 dst=217.118.81.29 sport=27512 dport=38695 packets=2 bytes=96 [UNREPLIED] src=217.118.81.29 dst=192.168.10.223 sport=38695 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 18 SYN_SENT src=10.9.10.16 dst=5.187.76.75 sport=50986 dport=58155 packets=3 bytes=152 [UNREPLIED] src=5.187.76.75 dst=192.168.10.223 sport=58155 dport=50986 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 48 src=10.9.10.16 dst=85.173.121.108 sport=27512 dport=42839 packets=2 bytes=96 [UNREPLIED] src=85.173.121.108 dst=192.168.10.223 sport=42839 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 57 src=10.9.10.16 dst=92.127.198.105 sport=27512 dport=32051 packets=1 bytes=132 [UNREPLIED] src=92.127.198.105 dst=192.168.10.223 sport=32051 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 1122 ESTABLISHED src=10.9.10.21 dst=95.213.11.33 sport=56630 dport=443 packets=462 bytes=26821 src=95.213.11.33 dst=192.168.10.223 sport=443 dport=56630 packets=508 bytes=620924 [ASSURED] mark=0 secmark=0 use=1
+udp      17 52 src=10.9.10.16 dst=93.74.12.242 sport=27512 dport=58320 packets=2 bytes=96 [UNREPLIED] src=93.74.12.242 dst=192.168.10.223 sport=58320 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 40 SYN_SENT src=10.9.10.16 dst=212.174.193.117 sport=51050 dport=24457 packets=3 bytes=152 [UNREPLIED] src=212.174.193.117 dst=192.168.10.223 sport=24457 dport=51050 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 1198 ESTABLISHED src=10.9.10.16 dst=159.8.209.214 sport=62972 dport=5938 packets=500 bytes=30169 src=159.8.209.214 dst=192.168.10.223 sport=5938 dport=62972 packets=274 bytes=21167 [ASSURED] mark=0 secmark=0 use=1
+udp      17 3 src=10.9.10.121 dst=8.8.4.4 sport=54296 dport=53 packets=2 bytes=142 src=10.9.10.254 dst=10.9.10.121 sport=53 dport=62369 packets=1 bytes=71 mark=0 secmark=0 use=1
+udp      17 11 src=10.9.10.121 dst=8.8.4.4 sport=53436 dport=53 packets=5 bytes=355 src=10.9.10.254 dst=10.9.10.121 sport=53 dport=53436 packets=2 bytes=142 [ASSURED] mark=0 secmark=0 use=1
+udp      17 14 src=10.9.10.121 dst=8.8.4.4 sport=50728 dport=53 packets=2 bytes=116 src=10.9.10.254 dst=10.9.10.121 sport=53 dport=50728 packets=2 bytes=164 [ASSURED] mark=0 secmark=0 use=1
+udp      17 14 src=10.9.10.16 dst=85.115.243.101 sport=27512 dport=20587 packets=2 bytes=96 [UNREPLIED] src=85.115.243.101 dst=192.168.10.223 sport=20587 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 2 SYN_SENT src=10.9.10.16 dst=95.106.84.116 sport=50944 dport=36661 packets=3 bytes=152 [UNREPLIED] src=95.106.84.116 dst=192.168.10.223 sport=36661 dport=50944 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 44 SYN_SENT src=10.9.10.20 dst=73.35.203.97 sport=49684 dport=27032 packets=3 bytes=152 [UNREPLIED] src=73.35.203.97 dst=192.168.10.223 sport=27032 dport=49684 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 21 src=10.9.10.16 dst=93.120.224.17 sport=27512 dport=28602 packets=8 bytes=1117 src=93.120.224.17 dst=192.168.10.223 sport=28602 dport=27512 packets=7 bytes=1216 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 61 SYN_SENT src=10.9.10.16 dst=2.132.179.249 sport=51103 dport=51047 packets=3 bytes=152 [UNREPLIED] src=2.132.179.249 dst=192.168.10.223 sport=51047 dport=51103 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 41 SYN_SENT src=10.9.10.16 dst=77.232.10.181 sport=51052 dport=43968 packets=3 bytes=152 [UNREPLIED] src=77.232.10.181 dst=192.168.10.223 sport=43968 dport=51052 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 37 SYN_SENT src=10.9.10.20 dst=179.222.59.103 sport=49679 dport=27032 packets=3 bytes=152 [UNREPLIED] src=179.222.59.103 dst=192.168.10.223 sport=27032 dport=49679 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 54 src=10.9.10.16 dst=77.51.189.48 sport=27512 dport=54286 packets=3 bytes=228 [UNREPLIED] src=77.51.189.48 dst=192.168.10.223 sport=54286 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 14 SYN_SENT src=10.9.10.16 dst=80.237.7.43 sport=50974 dport=41217 packets=3 bytes=152 [UNREPLIED] src=80.237.7.43 dst=192.168.10.223 sport=41217 dport=50974 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 6 src=10.9.10.16 dst=94.25.172.145 sport=27512 dport=52361 packets=3 bytes=228 [UNREPLIED] src=94.25.172.145 dst=192.168.10.223 sport=52361 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 125 src=10.9.10.20 dst=95.84.30.48 sport=27032 dport=27032 packets=412 bytes=30304 src=95.84.30.48 dst=192.168.10.223 sport=27032 dport=27032 packets=332 bytes=86317 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 71 SYN_SENT src=10.9.10.16 dst=93.185.24.235 sport=51132 dport=56737 packets=3 bytes=152 [UNREPLIED] src=93.185.24.235 dst=192.168.10.223 sport=56737 dport=51132 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 112 SYN_SENT src=10.9.10.16 dst=90.143.186.156 sport=51235 dport=8591 packets=3 bytes=152 [UNREPLIED] src=90.143.186.156 dst=192.168.10.223 sport=8591 dport=51235 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 84 TIME_WAIT src=10.9.10.65 dst=62.128.100.43 sport=50549 dport=443 packets=4 bytes=172 src=62.128.100.43 dst=192.168.10.223 sport=443 dport=50549 packets=3 bytes=132 [ASSURED] mark=0 secmark=0 use=1
+udp      17 59 src=10.9.10.16 dst=188.191.233.182 sport=27512 dport=24818 packets=1 bytes=132 src=188.191.233.182 dst=192.168.10.223 sport=24818 dport=27512 packets=1 bytes=338 mark=0 secmark=0 use=1
+udp      17 108 src=10.9.10.16 dst=92.46.95.161 sport=27512 dport=35861 packets=9 bytes=1538 src=92.46.95.161 dst=192.168.10.223 sport=35861 dport=27512 packets=5 bytes=756 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 118 SYN_SENT src=10.9.10.16 dst=188.162.72.215 sport=51262 dport=56908 packets=2 bytes=104 [UNREPLIED] src=188.162.72.215 dst=192.168.10.223 sport=56908 dport=51262 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 55 src=10.9.10.16 dst=84.201.253.120 sport=27512 dport=23643 packets=2 bytes=96 [UNREPLIED] src=84.201.253.120 dst=192.168.10.223 sport=23643 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 8 src=10.9.10.16 dst=77.35.148.62 sport=27512 dport=15094 packets=10 bytes=1670 src=77.35.148.62 dst=192.168.10.223 sport=15094 dport=27512 packets=6 bytes=1094 [ASSURED] mark=0 secmark=0 use=1
+udp      17 2 src=10.9.10.16 dst=193.169.110.115 sport=27512 dport=55001 packets=9 bytes=1248 src=193.169.110.115 dst=192.168.10.223 sport=55001 dport=27512 packets=8 bytes=1264 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 1 SYN_SENT src=10.9.10.16 dst=78.37.141.155 sport=50942 dport=27692 packets=3 bytes=152 [UNREPLIED] src=78.37.141.155 dst=192.168.10.223 sport=27692 dport=50942 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 68 TIME_WAIT src=10.9.10.21 dst=74.125.232.225 sport=53112 dport=80 packets=6 bytes=498 src=74.125.232.225 dst=192.168.10.223 sport=80 dport=53112 packets=4 bytes=299 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 68 TIME_WAIT src=10.9.10.21 dst=74.125.232.225 sport=51645 dport=80 packets=6 bytes=498 src=74.125.232.225 dst=192.168.10.223 sport=80 dport=51645 packets=4 bytes=299 [ASSURED] mark=0 secmark=0 use=1
+udp      17 14 src=10.9.10.16 dst=95.56.18.96 sport=27512 dport=17534 packets=2 bytes=96 [UNREPLIED] src=95.56.18.96 dst=192.168.10.223 sport=17534 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 78 SYN_SENT src=10.9.10.16 dst=178.19.253.68 sport=51143 dport=39725 packets=3 bytes=152 [UNREPLIED] src=178.19.253.68 dst=192.168.10.223 sport=39725 dport=51143 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 78 SYN_SENT src=10.9.10.16 dst=188.19.127.121 sport=51142 dport=20768 packets=3 bytes=152 [UNREPLIED] src=188.19.127.121 dst=192.168.10.223 sport=20768 dport=51142 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 20 src=10.9.10.16 dst=178.68.189.78 sport=27512 dport=56577 packets=8 bytes=895 src=178.68.189.78 dst=192.168.10.223 sport=56577 dport=27512 packets=7 bytes=1132 [ASSURED] mark=0 secmark=0 use=1
+udp      17 34 src=10.9.10.16 dst=95.67.167.214 sport=27512 dport=55952 packets=2 bytes=96 [UNREPLIED] src=95.67.167.214 dst=192.168.10.223 sport=55952 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 63 TIME_WAIT src=10.9.10.36 dst=54.231.114.58 sport=1794 dport=443 packets=21 bytes=11255 src=54.231.114.58 dst=192.168.10.223 sport=443 dport=1794 packets=20 bytes=5940 [ASSURED] mark=0 secmark=0 use=1
+udp      17 99 src=10.9.10.20 dst=84.186.140.3 sport=27032 dport=27032 packets=5 bytes=785 src=84.186.140.3 dst=192.168.10.223 sport=27032 dport=27032 packets=5 bytes=470 [ASSURED] mark=0 secmark=0 use=1
+udp      17 167 src=10.9.10.20 dst=27.130.42.196 sport=27032 dport=27032 packets=814 bytes=592021 src=27.130.42.196 dst=192.168.10.223 sport=27032 dport=27032 packets=645 bytes=398796 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 116 SYN_SENT src=10.9.10.16 dst=95.84.182.219 sport=51256 dport=50272 packets=2 bytes=104 [UNREPLIED] src=95.84.182.219 dst=192.168.10.223 sport=50272 dport=51256 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 40 src=10.9.10.16 dst=176.114.190.76 sport=27512 dport=10149 packets=1 bytes=132 [UNREPLIED] src=176.114.190.76 dst=192.168.10.223 sport=10149 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 12 SYN_SENT src=10.9.10.16 dst=31.132.188.25 sport=50971 dport=28416 packets=3 bytes=152 [UNREPLIED] src=31.132.188.25 dst=192.168.10.223 sport=28416 dport=50971 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 32 src=10.9.10.16 dst=87.76.238.97 sport=27512 dport=15649 packets=2 bytes=96 [UNREPLIED] src=87.76.238.97 dst=192.168.10.223 sport=15649 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 117 src=10.9.10.16 dst=81.22.54.4 sport=27512 dport=50571 packets=11 bytes=1480 src=81.22.54.4 dst=192.168.10.223 sport=50571 dport=27512 packets=7 bytes=1216 [ASSURED] mark=0 secmark=0 use=1
+udp      17 110 src=10.9.10.16 dst=5.166.255.193 sport=27512 dport=52094 packets=11 bytes=2924 src=5.166.255.193 dst=192.168.10.223 sport=52094 dport=27512 packets=3 bytes=212 [ASSURED] mark=0 secmark=0 use=1
+udp      17 25 src=10.9.10.200 dst=10.9.10.255 sport=138 dport=138 packets=3 bytes=643 [UNREPLIED] src=10.9.10.255 dst=10.9.10.200 sport=138 dport=138 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 102 SYN_SENT src=10.9.10.16 dst=46.166.95.6 sport=51207 dport=58411 packets=3 bytes=152 [UNREPLIED] src=46.166.95.6 dst=192.168.10.223 sport=58411 dport=51207 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 18 src=10.9.10.16 dst=2.132.62.29 sport=27512 dport=30436 packets=1 bytes=132 [UNREPLIED] src=2.132.62.29 dst=192.168.10.223 sport=30436 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 86 src=10.9.10.121 dst=188.254.71.89 sport=55777 dport=55777 packets=9366 bytes=1152021 src=188.254.71.89 dst=192.168.10.223 sport=55777 dport=55777 packets=3060 bytes=548699 [ASSURED] mark=0 secmark=0 use=1
+udp      17 25 src=10.9.10.16 dst=77.82.82.7 sport=27512 dport=15211 packets=1 bytes=132 [UNREPLIED] src=77.82.82.7 dst=192.168.10.223 sport=15211 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 36 src=10.9.10.16 dst=95.83.55.243 sport=27512 dport=20135 packets=3 bytes=228 [UNREPLIED] src=95.83.55.243 dst=192.168.10.223 sport=20135 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 46 src=10.9.10.16 dst=31.173.227.145 sport=27512 dport=3241 packets=2 bytes=96 [UNREPLIED] src=31.173.227.145 dst=192.168.10.223 sport=3241 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 118 src=10.9.10.20 dst=104.2.228.119 sport=27032 dport=27032 packets=190 bytes=19076 src=104.2.228.119 dst=192.168.10.223 sport=27032 dport=27032 packets=161 bytes=82309 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 1059 ESTABLISHED src=10.9.10.21 dst=64.233.162.188 sport=44649 dport=5228 packets=7 bytes=842 src=64.233.162.188 dst=192.168.10.223 sport=5228 dport=44649 packets=4 bytes=257 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 1175 ESTABLISHED src=10.9.10.21 dst=64.233.162.188 sport=38865 dport=5228 packets=40 bytes=8293 src=64.233.162.188 dst=192.168.10.223 sport=5228 dport=38865 packets=37 bytes=10149 [ASSURED] mark=0 secmark=0 use=1
+udp      17 59 src=10.9.10.16 dst=37.230.136.18 sport=27512 dport=18719 packets=1 bytes=48 [UNREPLIED] src=37.230.136.18 dst=192.168.10.223 sport=18719 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 92 SYN_SENT src=10.9.10.16 dst=85.26.241.184 sport=51186 dport=25688 packets=3 bytes=152 [UNREPLIED] src=85.26.241.184 dst=192.168.10.223 sport=25688 dport=51186 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 118 TIME_WAIT src=10.9.10.16 dst=10.9.10.254 sport=51267 dport=49152 packets=5 bytes=450 src=10.9.10.254 dst=10.9.10.16 sport=49152 dport=51267 packets=5 bytes=352 [ASSURED] mark=0 secmark=0 use=1
+udp      17 18 src=10.9.10.20 dst=89.12.39.165 sport=27032 dport=27032 packets=1 bytes=132 [UNREPLIED] src=89.12.39.165 dst=192.168.10.223 sport=27032 dport=27032 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 0 SYN_SENT src=10.9.10.16 dst=46.55.35.252 sport=50938 dport=61065 packets=3 bytes=152 [UNREPLIED] src=46.55.35.252 dst=192.168.10.223 sport=61065 dport=50938 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 1039 ESTABLISHED src=10.9.10.21 dst=52.0.252.168 sport=44297 dport=4244 packets=59 bytes=6288 src=52.0.252.168 dst=192.168.10.223 sport=4244 dport=44297 packets=41 bytes=5539 [ASSURED] mark=0 secmark=0 use=1
+udp      17 23 src=10.9.10.16 dst=176.48.178.84 sport=27512 dport=39286 packets=2 bytes=96 [UNREPLIED] src=176.48.178.84 dst=192.168.10.223 sport=39286 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 8 src=10.9.10.16 dst=78.25.122.116 sport=27512 dport=10628 packets=3 bytes=228 [UNREPLIED] src=78.25.122.116 dst=192.168.10.223 sport=10628 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 45 src=10.9.10.16 dst=95.57.29.175 sport=27512 dport=14206 packets=1 bytes=132 [UNREPLIED] src=95.57.29.175 dst=192.168.10.223 sport=14206 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 43 src=10.9.10.16 dst=46.21.250.70 sport=27512 dport=34402 packets=1 bytes=132 [UNREPLIED] src=46.21.250.70 dst=192.168.10.223 sport=34402 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 31 src=10.9.10.16 dst=37.53.241.105 sport=27512 dport=1033 packets=2 bytes=96 [UNREPLIED] src=37.53.241.105 dst=192.168.10.223 sport=1033 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=194.226.130.229 sport=53007 dport=443 packets=12 bytes=2059 src=194.226.130.229 dst=192.168.10.223 sport=443 dport=53007 packets=9 bytes=4222 [ASSURED] mark=0 secmark=0 use=1
+udp      17 9 src=10.9.10.254 dst=10.9.10.200 sport=1900 dport=49473 packets=8 bytes=2776 [UNREPLIED] src=10.9.10.200 dst=10.9.10.254 sport=49473 dport=1900 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 104 SYN_SENT src=10.9.10.16 dst=92.37.162.220 sport=51209 dport=55242 packets=3 bytes=152 [UNREPLIED] src=92.37.162.220 dst=192.168.10.223 sport=55242 dport=51209 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 49 src=10.9.10.26 dst=10.9.10.255 sport=137 dport=137 packets=1478 bytes=115716 [UNREPLIED] src=10.9.10.255 dst=10.9.10.26 sport=137 dport=137 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 94 TIME_WAIT src=10.9.10.36 dst=54.231.48.176 sport=1799 dport=443 packets=18 bytes=10684 src=54.231.48.176 dst=192.168.10.223 sport=443 dport=1799 packets=15 bytes=6376 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 101 SYN_SENT src=10.9.10.16 dst=178.218.26.139 sport=51202 dport=48735 packets=3 bytes=152 [UNREPLIED] src=178.218.26.139 dst=192.168.10.223 sport=48735 dport=51202 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 172 src=10.9.10.16 dst=178.184.217.40 sport=27512 dport=55432 packets=7 bytes=862 src=178.184.217.40 dst=192.168.10.223 sport=55432 dport=27512 packets=7 bytes=1422 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 114 SYN_SENT src=10.9.10.16 dst=176.215.5.31 sport=51248 dport=55276 packets=2 bytes=104 [UNREPLIED] src=176.215.5.31 dst=192.168.10.223 sport=55276 dport=51248 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 54 src=10.9.10.21 dst=10.1.4.20 sport=21937 dport=53 packets=1 bytes=66 src=10.9.10.254 dst=10.9.10.21 sport=53 dport=21937 packets=1 bytes=128 mark=0 secmark=0 use=1
+udp      17 49 src=10.9.10.21 dst=10.1.4.20 sport=35526 dport=53 packets=1 bytes=65 src=10.9.10.254 dst=10.9.10.21 sport=53 dport=35526 packets=1 bytes=265 mark=0 secmark=0 use=1
+udp      17 47 src=10.9.10.21 dst=10.1.4.20 sport=16065 dport=53 packets=1 bytes=66 src=10.9.10.254 dst=10.9.10.21 sport=53 dport=16065 packets=1 bytes=105 mark=0 secmark=0 use=1
+udp      17 46 src=10.9.10.21 dst=10.1.4.20 sport=36379 dport=53 packets=1 bytes=62 src=10.9.10.254 dst=10.9.10.21 sport=53 dport=36379 packets=1 bytes=126 mark=0 secmark=0 use=1
+udp      17 33 src=10.9.10.21 dst=10.1.4.20 sport=50432 dport=53 packets=1 bytes=66 [UNREPLIED] src=10.9.10.254 dst=10.9.10.21 sport=53 dport=50432 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 28 src=10.9.10.21 dst=10.1.4.20 sport=63179 dport=53 packets=1 bytes=66 [UNREPLIED] src=10.9.10.254 dst=10.9.10.21 sport=53 dport=63179 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 28 src=10.9.10.21 dst=10.1.4.20 sport=41079 dport=53 packets=1 bytes=66 src=10.9.10.254 dst=10.9.10.21 sport=53 dport=41079 packets=1 bytes=110 mark=0 secmark=0 use=1
+udp      17 21 src=10.9.10.21 dst=10.1.4.20 sport=39094 dport=53 packets=1 bytes=64 src=10.9.10.254 dst=10.9.10.21 sport=53 dport=39094 packets=1 bytes=122 mark=0 secmark=0 use=1
+udp      17 42 src=10.9.10.21 dst=10.1.4.20 sport=7290 dport=53 packets=1 bytes=66 src=10.9.10.254 dst=10.9.10.21 sport=53 dport=7290 packets=1 bytes=66 mark=0 secmark=0 use=1
+udp      17 14 src=10.9.10.21 dst=10.1.4.20 sport=51309 dport=53 packets=1 bytes=68 src=10.9.10.254 dst=10.9.10.21 sport=53 dport=51309 packets=1 bytes=113 mark=0 secmark=0 use=1
+udp      17 14 src=10.9.10.21 dst=10.1.4.20 sport=21172 dport=53 packets=1 bytes=67 src=10.9.10.254 dst=10.9.10.21 sport=53 dport=21172 packets=1 bytes=238 mark=0 secmark=0 use=1
+udp      17 13 src=10.9.10.21 dst=10.1.4.20 sport=47047 dport=53 packets=1 bytes=61 src=10.9.10.254 dst=10.9.10.21 sport=53 dport=47047 packets=1 bytes=260 mark=0 secmark=0 use=1
+tcp      6 36 SYN_SENT src=10.9.10.16 dst=212.33.238.130 sport=51033 dport=63043 packets=3 bytes=152 [UNREPLIED] src=212.33.238.130 dst=192.168.10.223 sport=63043 dport=51033 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 28 src=10.9.10.20 dst=46.188.33.189 sport=27032 dport=39328 packets=1 bytes=132 [UNREPLIED] src=46.188.33.189 dst=192.168.10.223 sport=39328 dport=27032 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 52 SYN_SENT src=10.9.10.16 dst=5.1.30.15 sport=51081 dport=20811 packets=3 bytes=152 [UNREPLIED] src=5.1.30.15 dst=192.168.10.223 sport=20811 dport=51081 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 130 src=10.9.10.16 dst=5.136.193.149 sport=27512 dport=52674 packets=4 bytes=566 src=5.136.193.149 dst=192.168.10.223 sport=52674 dport=27512 packets=3 bytes=518 [ASSURED] mark=0 secmark=0 use=1
+udp      17 19 src=10.9.10.16 dst=77.35.185.175 sport=27512 dport=24265 packets=2 bytes=96 [UNREPLIED] src=77.35.185.175 dst=192.168.10.223 sport=24265 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 60 SYN_SENT src=10.9.10.16 dst=185.13.112.132 sport=51101 dport=28553 packets=3 bytes=152 [UNREPLIED] src=185.13.112.132 dst=192.168.10.223 sport=28553 dport=51101 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 58 src=10.9.10.20 dst=76.183.9.26 sport=27032 dport=60618 packets=1 bytes=132 src=76.183.9.26 dst=192.168.10.223 sport=60618 dport=27032 packets=1 bytes=345 mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=217.69.133.145 sport=53006 dport=443 packets=5 bytes=224 src=217.69.133.145 dst=192.168.10.223 sport=443 dport=53006 packets=2 bytes=92 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=217.69.133.145 sport=53003 dport=443 packets=8 bytes=847 src=217.69.133.145 dst=192.168.10.223 sport=443 dport=53003 packets=7 bytes=3388 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=217.69.133.145 sport=53002 dport=443 packets=9 bytes=899 src=217.69.133.145 dst=192.168.10.223 sport=443 dport=53002 packets=8 bytes=3686 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=217.69.133.145 sport=53001 dport=443 packets=9 bytes=899 src=217.69.133.145 dst=192.168.10.223 sport=443 dport=53001 packets=8 bytes=3686 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=217.69.133.145 sport=53000 dport=443 packets=21 bytes=8248 src=217.69.133.145 dst=192.168.10.223 sport=443 dport=53000 packets=20 bytes=9683 [ASSURED] mark=0 secmark=0 use=1
+udp      17 103 src=10.9.10.16 dst=109.127.148.94 sport=27512 dport=15260 packets=4 bytes=566 src=109.127.148.94 dst=192.168.10.223 sport=15260 dport=27512 packets=3 bytes=518 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 937 ESTABLISHED src=10.9.10.21 dst=52.0.252.122 sport=53579 dport=443 packets=58 bytes=6478 src=52.0.252.122 dst=192.168.10.223 sport=443 dport=53579 packets=46 bytes=6446 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 108 SYN_SENT src=10.9.10.16 dst=78.25.11.50 sport=51219 dport=36554 packets=3 bytes=152 [UNREPLIED] src=78.25.11.50 dst=192.168.10.223 sport=36554 dport=51219 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 21 src=10.9.10.16 dst=79.105.142.131 sport=27512 dport=42566 packets=2 bytes=96 [UNREPLIED] src=79.105.142.131 dst=192.168.10.223 sport=42566 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 51 src=10.9.10.16 dst=5.141.206.103 sport=27512 dport=48406 packets=3 bytes=228 [UNREPLIED] src=5.141.206.103 dst=192.168.10.223 sport=48406 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 30 src=10.9.10.16 dst=109.86.217.30 sport=27512 dport=29585 packets=2 bytes=96 [UNREPLIED] src=109.86.217.30 dst=192.168.10.223 sport=29585 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 128 src=10.9.10.16 dst=188.234.184.72 sport=27512 dport=34324 packets=6 bytes=730 src=188.234.184.72 dst=192.168.10.223 sport=34324 dport=27512 packets=7 bytes=1132 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 84 SYN_SENT src=10.9.10.16 dst=84.18.121.89 sport=51157 dport=17352 packets=3 bytes=152 [UNREPLIED] src=84.18.121.89 dst=192.168.10.223 sport=17352 dport=51157 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 115 src=10.9.10.20 dst=123.190.186.38 sport=27032 dport=45035 packets=3 bytes=212 src=123.190.186.38 dst=192.168.10.223 sport=45035 dport=27032 packets=2 bytes=96 [ASSURED] mark=0 secmark=0 use=1
+udp      17 172 src=10.9.10.20 dst=91.230.60.106 sport=27032 dport=27032 packets=33 bytes=4983 src=91.230.60.106 dst=192.168.10.223 sport=27032 dport=27032 packets=26 bytes=3022 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 38 CLOSE_WAIT src=10.9.10.16 dst=94.100.180.216 sport=50981 dport=443 packets=11 bytes=2855 src=94.100.180.216 dst=192.168.10.223 sport=443 dport=50981 packets=7 bytes=1035 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 115 SYN_SENT src=10.9.10.16 dst=217.66.152.156 sport=51240 dport=61907 packets=3 bytes=152 [UNREPLIED] src=217.66.152.156 dst=192.168.10.223 sport=61907 dport=51240 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 2 src=10.9.10.16 dst=88.210.48.68 sport=27512 dport=48179 packets=1 bytes=132 [UNREPLIED] src=88.210.48.68 dst=192.168.10.223 sport=48179 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 11 src=10.9.10.16 dst=77.101.104.145 sport=27512 dport=60878 packets=1 bytes=132 src=77.101.104.145 dst=192.168.10.223 sport=60878 dport=27512 packets=1 bytes=311 mark=0 secmark=0 use=1
+tcp      6 36 TIME_WAIT src=10.9.10.121 dst=50.17.220.153 sport=53019 dport=80 packets=5 bytes=627 src=50.17.220.153 dst=192.168.10.223 sport=80 dport=53019 packets=5 bytes=386 [ASSURED] mark=0 secmark=0 use=1
+udp      17 49 src=10.9.10.16 dst=91.206.54.54 sport=27512 dport=24982 packets=1 bytes=132 [UNREPLIED] src=91.206.54.54 dst=192.168.10.223 sport=24982 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 52 SYN_SENT src=10.9.10.16 dst=213.153.176.90 sport=51080 dport=36592 packets=3 bytes=152 [UNREPLIED] src=213.153.176.90 dst=192.168.10.223 sport=36592 dport=51080 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 53 src=10.9.10.20 dst=71.224.198.92 sport=27032 dport=51413 packets=1 bytes=132 [UNREPLIED] src=71.224.198.92 dst=192.168.10.223 sport=51413 dport=27032 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 48 src=10.9.10.16 dst=2.132.234.202 sport=27512 dport=19818 packets=1 bytes=132 [UNREPLIED] src=2.132.234.202 dst=192.168.10.223 sport=19818 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 83 src=10.9.10.16 dst=188.234.166.24 sport=27512 dport=57281 packets=9 bytes=1248 src=188.234.166.24 dst=192.168.10.223 sport=57281 dport=27512 packets=9 bytes=1602 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 111 SYN_SENT src=10.9.10.16 dst=5.141.194.222 sport=51230 dport=18567 packets=3 bytes=152 [UNREPLIED] src=5.141.194.222 dst=192.168.10.223 sport=18567 dport=51230 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 34 src=10.9.10.16 dst=109.226.93.15 sport=27512 dport=30839 packets=8 bytes=1116 src=109.226.93.15 dst=192.168.10.223 sport=30839 dport=27512 packets=6 bytes=804 [ASSURED] mark=0 secmark=0 use=1
+udp      17 2 src=10.9.10.16 dst=178.170.175.40 sport=27512 dport=37923 packets=8 bytes=724 src=178.170.175.40 dst=192.168.10.223 sport=37923 dport=27512 packets=11 bytes=800 [ASSURED] mark=0 secmark=0 use=1
+udp      17 25 src=10.9.10.16 dst=85.254.73.104 sport=27512 dport=50278 packets=1 bytes=132 [UNREPLIED] src=85.254.73.104 dst=192.168.10.223 sport=50278 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 34 src=10.9.10.16 dst=31.173.242.222 sport=27512 dport=45913 packets=1 bytes=132 [UNREPLIED] src=31.173.242.222 dst=192.168.10.223 sport=45913 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 31 src=10.9.10.16 dst=95.57.5.94 sport=27512 dport=57643 packets=1 bytes=132 [UNREPLIED] src=95.57.5.94 dst=192.168.10.223 sport=57643 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 9 SYN_SENT src=10.9.10.16 dst=31.173.240.54 sport=50960 dport=48110 packets=3 bytes=152 [UNREPLIED] src=31.173.240.54 dst=192.168.10.223 sport=48110 dport=50960 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 51 src=10.9.10.16 dst=77.139.253.151 sport=27512 dport=60513 packets=1 bytes=132 [UNREPLIED] src=77.139.253.151 dst=192.168.10.223 sport=60513 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 174 src=10.9.10.16 dst=77.34.165.218 sport=27512 dport=53233 packets=7 bytes=778 src=77.34.165.218 dst=192.168.10.223 sport=53233 dport=27512 packets=6 bytes=720 [ASSURED] mark=0 secmark=0 use=1
+udp      17 37 src=10.9.10.16 dst=185.124.154.201 sport=27512 dport=57376 packets=1 bytes=132 [UNREPLIED] src=185.124.154.201 dst=192.168.10.223 sport=57376 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 19 src=10.9.10.16 dst=94.29.100.166 sport=27512 dport=21355 packets=2 bytes=96 [UNREPLIED] src=94.29.100.166 dst=192.168.10.223 sport=21355 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 59 src=10.9.10.16 dst=5.137.165.230 sport=27512 dport=28138 packets=1 bytes=48 [UNREPLIED] src=5.137.165.230 dst=192.168.10.223 sport=28138 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 105 SYN_SENT src=10.9.10.16 dst=178.187.38.10 sport=51213 dport=6805 packets=3 bytes=152 [UNREPLIED] src=178.187.38.10 dst=192.168.10.223 sport=6805 dport=51213 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 55 src=10.9.10.16 dst=188.162.73.206 sport=27512 dport=21223 packets=1 bytes=132 [UNREPLIED] src=188.162.73.206 dst=192.168.10.223 sport=21223 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 14 src=10.9.10.254 dst=10.9.10.121 sport=1900 dport=58203 packets=5 bytes=1735 [UNREPLIED] src=10.9.10.121 dst=10.9.10.254 sport=58203 dport=1900 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 69 SYN_SENT src=10.9.10.16 dst=212.3.140.105 sport=51123 dport=33849 packets=3 bytes=152 [UNREPLIED] src=212.3.140.105 dst=192.168.10.223 sport=33849 dport=51123 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 108 SYN_SENT src=10.9.10.16 dst=78.111.189.159 sport=51220 dport=64163 packets=3 bytes=152 [UNREPLIED] src=78.111.189.159 dst=192.168.10.223 sport=64163 dport=51220 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 98 SYN_SENT src=10.9.10.16 dst=85.26.232.51 sport=51195 dport=28912 packets=3 bytes=152 [UNREPLIED] src=85.26.232.51 dst=192.168.10.223 sport=28912 dport=51195 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 171 src=10.9.10.16 dst=176.114.189.175 sport=27512 dport=5229 packets=9 bytes=1621 src=176.114.189.175 dst=192.168.10.223 sport=5229 dport=27512 packets=6 bytes=1094 [ASSURED] mark=0 secmark=0 use=1
+udp      17 36 src=10.9.10.16 dst=109.74.221.176 sport=27512 dport=62305 packets=1 bytes=132 [UNREPLIED] src=109.74.221.176 dst=192.168.10.223 sport=62305 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 58 src=10.9.10.16 dst=185.19.21.17 sport=27512 dport=29617 packets=1 bytes=48 [UNREPLIED] src=185.19.21.17 dst=192.168.10.223 sport=29617 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 43 src=10.9.10.16 dst=188.19.31.98 sport=27512 dport=20841 packets=2 bytes=96 [UNREPLIED] src=188.19.31.98 dst=192.168.10.223 sport=20841 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 19 src=10.9.10.16 dst=91.219.137.255 sport=27512 dport=62187 packets=2 bytes=96 [UNREPLIED] src=91.219.137.255 dst=192.168.10.223 sport=62187 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 36 src=10.9.10.16 dst=93.170.185.170 sport=27512 dport=15599 packets=1 bytes=132 [UNREPLIED] src=93.170.185.170 dst=192.168.10.223 sport=15599 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=217.69.139.243 sport=52989 dport=443 packets=40 bytes=3925 src=217.69.139.243 dst=192.168.10.223 sport=443 dport=52989 packets=62 bytes=30854 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=217.69.139.243 sport=52988 dport=443 packets=68 bytes=4654 src=217.69.139.243 dst=192.168.10.223 sport=443 dport=52988 packets=122 bytes=66052 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=217.69.139.243 sport=52987 dport=443 packets=21 bytes=3177 src=217.69.139.243 dst=192.168.10.223 sport=443 dport=52987 packets=26 bytes=20646 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=217.69.139.243 sport=52986 dport=443 packets=18 bytes=2649 src=217.69.139.243 dst=192.168.10.223 sport=443 dport=52986 packets=22 bytes=16653 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=217.69.139.243 sport=52985 dport=443 packets=44 bytes=4095 src=217.69.139.243 dst=192.168.10.223 sport=443 dport=52985 packets=73 bytes=37358 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=217.69.139.243 sport=52984 dport=443 packets=26 bytes=3382 src=217.69.139.243 dst=192.168.10.223 sport=443 dport=52984 packets=35 bytes=32567 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 39 SYN_SENT src=10.9.10.16 dst=95.82.254.93 sport=51046 dport=37678 packets=3 bytes=152 [UNREPLIED] src=95.82.254.93 dst=192.168.10.223 sport=37678 dport=51046 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 14 src=10.9.10.16 dst=78.108.67.166 sport=27512 dport=35024 packets=2 bytes=96 [UNREPLIED] src=78.108.67.166 dst=192.168.10.223 sport=35024 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 28 TIME_WAIT src=10.9.10.121 dst=185.5.137.246 sport=52977 dport=443 packets=16 bytes=1533 src=185.5.137.246 dst=192.168.10.223 sport=443 dport=52977 packets=13 bytes=4223 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 510 ESTABLISHED src=10.9.10.21 dst=173.194.222.188 sport=39800 dport=5228 packets=5 bytes=491 src=173.194.222.188 dst=192.168.10.223 sport=5228 dport=39800 packets=4 bytes=245 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 112 SYN_SENT src=10.9.10.16 dst=95.37.85.121 sport=51236 dport=57894 packets=3 bytes=152 [UNREPLIED] src=95.37.85.121 dst=192.168.10.223 sport=57894 dport=51236 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 17 src=10.9.10.16 dst=109.184.26.16 sport=27512 dport=35132 packets=3 bytes=228 [UNREPLIED] src=109.184.26.16 dst=192.168.10.223 sport=35132 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 131 src=10.9.10.20 dst=90.74.47.223 sport=27032 dport=27032 packets=207 bytes=20156 src=90.74.47.223 dst=192.168.10.223 sport=27032 dport=27032 packets=196 bytes=133758 [ASSURED] mark=0 secmark=0 use=1
+udp      17 16 src=10.9.10.16 dst=81.24.87.138 sport=27512 dport=42804 packets=1 bytes=132 [UNREPLIED] src=81.24.87.138 dst=192.168.10.223 sport=42804 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 59 src=10.9.10.16 dst=195.190.124.174 sport=27512 dport=22238 packets=1 bytes=48 [UNREPLIED] src=195.190.124.174 dst=192.168.10.223 sport=22238 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 90 SYN_SENT src=10.9.10.16 dst=176.40.224.71 sport=51174 dport=1024 packets=3 bytes=152 [UNREPLIED] src=176.40.224.71 dst=192.168.10.223 sport=1024 dport=51174 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 20 SYN_SENT src=10.9.10.16 dst=92.76.101.146 sport=50991 dport=19253 packets=3 bytes=152 [UNREPLIED] src=92.76.101.146 dst=192.168.10.223 sport=19253 dport=50991 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 53 SYN_SENT src=10.9.10.16 dst=83.66.169.66 sport=51082 dport=20457 packets=3 bytes=152 [UNREPLIED] src=83.66.169.66 dst=192.168.10.223 sport=20457 dport=51082 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 64 SYN_SENT src=10.9.10.16 dst=176.197.102.62 sport=51111 dport=43221 packets=3 bytes=152 [UNREPLIED] src=176.197.102.62 dst=192.168.10.223 sport=43221 dport=51111 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 43 src=10.9.10.20 dst=50.186.90.220 sport=27032 dport=19208 packets=1 bytes=132 [UNREPLIED] src=50.186.90.220 dst=192.168.10.223 sport=19208 dport=27032 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 23 src=10.9.10.16 dst=93.73.199.52 sport=27512 dport=13928 packets=8 bytes=910 src=93.73.199.52 dst=192.168.10.223 sport=13928 dport=27512 packets=6 bytes=720 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 1198 ESTABLISHED src=10.9.10.21 dst=87.240.165.65 sport=48926 dport=443 packets=18 bytes=3521 src=87.240.165.65 dst=192.168.10.223 sport=443 dport=48926 packets=19 bytes=3009 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 1153 ESTABLISHED src=10.9.10.21 dst=87.240.165.65 sport=43114 dport=443 packets=36 bytes=8406 src=87.240.165.65 dst=192.168.10.223 sport=443 dport=43114 packets=28 bytes=16037 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 1158 ESTABLISHED src=10.9.10.21 dst=87.240.165.65 sport=41581 dport=443 packets=39 bytes=7286 src=87.240.165.65 dst=192.168.10.223 sport=443 dport=41581 packets=50 bytes=44542 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 1199 ESTABLISHED src=10.9.10.20 dst=185.86.114.134 sport=49424 dport=27032 packets=329 bytes=19486 src=185.86.114.134 dst=192.168.10.223 sport=27032 dport=49424 packets=278 bytes=148827 [ASSURED] mark=0 secmark=0 use=1
+tcp      6 101 SYN_SENT src=10.9.10.16 dst=188.162.36.164 sport=51203 dport=31775 packets=3 bytes=152 [UNREPLIED] src=188.162.36.164 dst=192.168.10.223 sport=31775 dport=51203 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 85 SYN_SENT src=10.9.10.16 dst=105.2.10.221 sport=51164 dport=20605 packets=3 bytes=152 [UNREPLIED] src=105.2.10.221 dst=192.168.10.223 sport=20605 dport=51164 packets=0 bytes=0 mark=0 secmark=0 use=1
+unknown  139 508 src=0.0.0.0 dst=255.255.255.255 packets=11880 bytes=855360 [UNREPLIED] src=255.255.255.255 dst=0.0.0.0 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 62 SYN_SENT src=10.9.10.16 dst=41.189.161.63 sport=51104 dport=34145 packets=3 bytes=152 [UNREPLIED] src=41.189.161.63 dst=192.168.10.223 sport=34145 dport=51104 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 39 src=10.9.10.16 dst=91.235.87.249 sport=27512 dport=56035 packets=3 bytes=228 [UNREPLIED] src=91.235.87.249 dst=192.168.10.223 sport=56035 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 42 SYN_SENT src=10.9.10.16 dst=85.26.235.188 sport=51053 dport=39480 packets=3 bytes=152 [UNREPLIED] src=85.26.235.188 dst=192.168.10.223 sport=39480 dport=51053 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 38 SYN_SENT src=10.9.10.16 dst=84.244.54.194 sport=51041 dport=42737 packets=3 bytes=152 [UNREPLIED] src=84.244.54.194 dst=192.168.10.223 sport=42737 dport=51041 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 7 src=10.9.10.16 dst=31.132.225.171 sport=27512 dport=14222 packets=1 bytes=132 [UNREPLIED] src=31.132.225.171 dst=192.168.10.223 sport=14222 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 29 SYN_SENT src=10.9.10.16 dst=37.214.142.219 sport=51012 dport=29112 packets=3 bytes=152 [UNREPLIED] src=37.214.142.219 dst=192.168.10.223 sport=29112 dport=51012 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 77 src=10.9.10.20 dst=31.133.64.61 sport=27032 dport=27032 packets=28 bytes=4186 src=31.133.64.61 dst=192.168.10.223 sport=27032 dport=27032 packets=25 bytes=2668 [ASSURED] mark=0 secmark=0 use=1
+udp      17 9 src=10.9.10.16 dst=181.201.185.52 sport=27512 dport=38983 packets=1 bytes=132 [UNREPLIED] src=181.201.185.52 dst=192.168.10.223 sport=38983 dport=27512 packets=0 bytes=0 mark=0 secmark=0 use=1
+tcp      6 115 SYN_SENT src=10.9.10.16 dst=213.87.126.121 sport=51252 dport=16731 packets=2 bytes=104 [UNREPLIED] src=213.87.126.121 dst=192.168.10.223 sport=16731 dport=51252 packets=0 bytes=0 mark=0 secmark=0 use=1
+udp      17 26 src=10.9.10.36 dst=8.8.8.8 sport=65286 dport=53 packets=1 bytes=66 src=10.9.10.254 dst=10.9.10.36 sport=53 dport=65286 packets=1 bytes=82 mark=0 secmark=0 use=1
+udp      17 26 src=10.9.10.36 dst=8.8.8.8 sport=53612 dport=53 packets=1 bytes=66 src=10.9.10.254 dst=10.9.10.36 sport=53 dport=53612 packets=1 bytes=82 mark=0 secmark=0 use=1
+udp      17 26 src=10.9.10.36 dst=8.8.8.8 sport=64652 dport=53 packets=1 bytes=75 src=10.9.10.254 dst=10.9.10.36 sport=53 dport=64652 packets=1 bytes=112 mark=0 secmark=0 use=1
+udp      17 26 src=10.9.10.36 dst=8.8.8.8 sport=57401 dport=53 packets=1 bytes=75 src=10.9.10.254 dst=10.9.10.36 sport=53 dport=57401 packets=1 bytes=112 mark=0 secmark=0 use=1
+udp      17 25 src=10.9.10.36 dst=8.8.8.8 sport=64815 dport=53 packets=1 bytes=56 src=10.9.10.254 dst=10.9.10.36 sport=53 dport=64815 packets=1 bytes=72 mark=0 secmark=0 use=1
+udp      17 25 src=10.9.10.36 dst=8.8.8.8 sport=61012 dport=53 packets=1 bytes=56 src=10.9.10.254 dst=10.9.10.36 sport=53 dport=61012 packets=1 bytes=72 mark=0 secmark=0 use=1
+udp      17 103 src=10.9.10.16 dst=90.189.140.220 sport=27512 dport=58659 packets=3 bytes=228 src=90.189.140.220 dst=192.168.10.223 sport=58659 dport=27512 packets=3 bytes=434 [ASSURED] mark=0 secmark=0 use=1
+udp      17 94 src=10.9.10.16 dst=109.229.104.156 sport=27512 dport=46820 packets=3 bytes=228 src=109.229.104.156 dst=192.168.10.223 sport=46820 dport=27512 packets=3 bytes=434 [ASSURED] mark=0 secmark=0 use=1
+udp      17 25 src=10.9.10.200 dst=10.9.10.255 spo]]>
+    </file>
+    <error>Failed to open proc:bus/usb/devices.</error>
+    <file name="temp:resolv.conf">
+        <![CDATA[
+nameserver 192.168.10.100
+nameserver 8.8.4.4
+options timeout:1 attempts:3 rotate
+
+]]>
+    </file>
+    <file name="temp:hosts">
+        <![CDATA[
+127.0.0.1 localhost
+::1 localhost
+
+]]>
+    </file>
+    <!-- components list -->
+    <component>
+        <queued>no</queued>
+        <name>config-repeater</name>
+        <description>Repeater mode</description>
+        <description lang="RU">&#x0420;&#x0435;&#x0436;&#x0438;&#x043c; &#x0443;&#x0441;&#x0438;&#x043b;&#x0438;&#x0442;&#x0435;&#x043b;&#x044f;</description>
+        <group>Modes</group>
+        <priority>normal</priority>
+        <depend>corewireless</depend>
+        <size>661</size>
+        <order>0</order>
+        <version>2.05.C.4.0-0</version>
+        <hash>61f640569d85040ad87f07875ede8de5</hash>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>config-ap</name>
+        <description>Access point mode</description>
+        <description lang="RU">&#x0420;&#x0435;&#x0436;&#x0438;&#x043c; &#x0442;&#x043e;&#x0447;&#x043a;&#x0438; &#x0434;&#x043e;&#x0441;&#x0442;&#x0443;&#x043f;&#x0430;</description>
+        <group>Modes</group>
+        <priority>normal</priority>
+        <depend>corewireless</depend>
+        <size>643</size>
+        <order>0</order>
+        <version>2.05.C.4.0-0</version>
+        <hash>e8ca443b91361edd59c62d3394119670</hash>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>config-client</name>
+        <description>Client mode</description>
+        <description lang="RU">&#x0420;&#x0435;&#x0436;&#x0438;&#x043c; &#x0430;&#x0434;&#x0430;&#x043f;&#x0442;&#x0435;&#x0440;&#x0430;</description>
+        <group>Modes</group>
+        <priority>normal</priority>
+        <depend>corewireless</depend>
+        <size>622</size>
+        <order>0</order>
+        <version>2.05.C.4.0-0</version>
+        <hash>0a33791d59c9a355b9c8866b4708f755</hash>
+    </component>
+    <component>
+        <queued>yes</queued>
+        <name>base</name>
+        <description>NDMS platform</description>
+        <details>Provides the core functionality such as packet switching, routing and filtering. Also contains the command line interpreter and webadmin.</details>
+        <description lang="RU">&#x041f;&#x043b;&#x0430;&#x0442;&#x0444;&#x043e;&#x0440;&#x043c;&#x0430; NDMS</description>
+        <details lang="RU">&#x041f;&#x0440;&#x0435;&#x0434;&#x043e;&#x0441;&#x0442;&#x0430;&#x0432;&#x043b;&#x044f;&#x0435;&#x0442; &#x0431;&#x0430;&#x0437;&#x043e;&#x0432;&#x044b;&#x0435; &#x0432;&#x043e;&#x0437;&#x043c;&#x043e;&#x0436;&#x043d;&#x043e;&#x0441;&#x0442;&#x0438; &#x043a;&#x043e;&#x043c;&#x043c;&#x0443;&#x0442;&#x0438;&#x0440;&#x043e;&#x0432;&#x0430;&#x043d;&#x0438;&#x044f;, &#x043c;&#x0430;&#x0440;&#x0448;&#x0440;&#x0443;&#x0442;&#x0438;&#x0437;&#x0430;&#x0446;&#x0438;&#x0438; &#x0438; &#x0444;&#x0438;&#x043b;&#x044c;&#x0442;&#x0440;&#x0430;&#x0446;&#x0438;&#x0438; &#x0442;&#x0440;&#x0430;&#x0444;&#x0438;&#x043a;&#x0430;. &#x0422;&#x0430;&#x043a;&#x0436;&#x0435; &#x0441;&#x043e;&#x0434;&#x0435;&#x0440;&#x0436;&#x0438;&#x0442; &#x0438;&#x043d;&#x0442;&#x0435;&#x0440;&#x043f;&#x0440;&#x0435;&#x0442;&#x0430;&#x0442;&#x043e;&#x0440; &#x043a;&#x043e;&#x043c;&#x0430;&#x043d;&#x0434;&#x043d;&#x043e;&#x0439; &#x0441;&#x0442;&#x0440;&#x043e;&#x043a;&#x0438; &#x0438; web-&#x0438;&#x043d;&#x0442;&#x0435;&#x0440;&#x0444;&#x0435;&#x0439;&#x0441;.</details>
+        <priority>optional</priority>
+        <size>1298130</size>
+        <version>2.05.C.4.0-0</version>
+        <hash>1bb36ffa275ed21d549227e16ecee1d0</hash>
+        <installed>2.02.1.A.4</installed>
+    </component>
+    <component>
+        <queued>yes</queued>
+        <name>ppp</name>
+        <description>PPP library</description>
+        <details>Allows to establish PPP links over serial interfaces. This component is also needed for PPPoE, PPTP and L2TP clients to work.</details>
+        <description lang="RU">&#x0411;&#x0438;&#x0431;&#x043b;&#x0438;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; PPP</description>
+        <details lang="RU">&#x041f;&#x043e;&#x0437;&#x0432;&#x043e;&#x043b;&#x044f;&#x0435;&#x0442; &#x0443;&#x0441;&#x0442;&#x0430;&#x043d;&#x0430;&#x0432;&#x043b;&#x0438;&#x0432;&#x0430;&#x0442;&#x044c; &#x043f;&#x043e;&#x0434;&#x043a;&#x043b;&#x044e;&#x0447;&#x0435;&#x043d;&#x0438;&#x044f; PPP &#x0447;&#x0435;&#x0440;&#x0435;&#x0437; &#x043f;&#x043e;&#x0441;&#x043b;&#x0435;&#x0434;&#x043e;&#x0432;&#x0430;&#x0442;&#x0435;&#x043b;&#x044c;&#x043d;&#x044b;&#x0435; &#x0438;&#x043d;&#x0442;&#x0435;&#x0440;&#x0444;&#x0435;&#x0439;&#x0441;&#x044b;. &#x042d;&#x0442;&#x043e;&#x0442; &#x043a;&#x043e;&#x043c;&#x043f;&#x043e;&#x043d;&#x0435;&#x043d;&#x0442; &#x0442;&#x0430;&#x043a;&#x0436;&#x0435; &#x043d;&#x0435;&#x043e;&#x0431;&#x0445;&#x043e;&#x0434;&#x0438;&#x043c; &#x0434;&#x043b;&#x044f; &#x0440;&#x0430;&#x0431;&#x043e;&#x0442;&#x044b; &#x043a;&#x043b;&#x0438;&#x0435;&#x043d;&#x0442;&#x043e;&#x0432; PPPoE, PPTP &#x0438; L2TP.</details>
+        <group>Networking</group>
+        <priority>important</priority>
+        <size>33882</size>
+        <order>1</order>
+        <version>2.4.4-15-1</version>
+        <hash>c1dd3075f6feb9610c1e82792efc28e9</hash>
+        <installed>2.4.4-1</installed>
+    </component>
+    <component>
+        <queued>yes</queued>
+        <name>corewireless</name>
+        <description>Wi-Fi interface</description>
+        <details>Provides the core wireless functionality. This component will be installed automatically if needed.</details>
+        <description lang="RU">&#x0418;&#x043d;&#x0442;&#x0435;&#x0440;&#x0444;&#x0435;&#x0439;&#x0441; Wi-Fi</description>
+        <details lang="RU">&#x041f;&#x0440;&#x0435;&#x0434;&#x043e;&#x0441;&#x0442;&#x0430;&#x0432;&#x043b;&#x044f;&#x0435;&#x0442; &#x0431;&#x0430;&#x0437;&#x043e;&#x0432;&#x044b;&#x0435; &#x0444;&#x0443;&#x043d;&#x043a;&#x0446;&#x0438;&#x0438; &#x0434;&#x043b;&#x044f; &#x0440;&#x0430;&#x0431;&#x043e;&#x0442;&#x044b; &#x0443;&#x0441;&#x0442;&#x0440;&#x043e;&#x0439;&#x0441;&#x0442;&#x0432;&#x0430; &#x0432; &#x0431;&#x0435;&#x0441;&#x043f;&#x0440;&#x043e;&#x0432;&#x043e;&#x0434;&#x043d;&#x044b;&#x0445; &#x0441;&#x0435;&#x0442;&#x044f;&#x0445;. &#x042d;&#x0442;&#x043e;&#x0442; &#x043a;&#x043e;&#x043c;&#x043f;&#x043e;&#x043d;&#x0435;&#x043d;&#x0442; &#x0443;&#x0441;&#x0442;&#x0430;&#x043d;&#x0430;&#x0432;&#x043b;&#x0438;&#x0432;&#x0430;&#x0435;&#x0442;&#x0441;&#x044f; &#x0430;&#x0432;&#x0442;&#x043e;&#x043c;&#x0430;&#x0442;&#x0438;&#x0447;&#x0435;&#x0441;&#x043a;&#x0438;.</details>
+        <group>Base system</group>
+        <priority>important</priority>
+        <size>547029</size>
+        <order>1</order>
+        <version>2.6.36+2.7.2.0-24-1</version>
+        <hash>a53da682156158d055afbd658c63d645</hash>
+        <script>
+interface WifiMaster0
+country-code RU
+compatibility BGN
+up
+!
+interface WifiMaster0/AccessPoint0
+name AccessPoint
+description &quot;Wi-Fi access point&quot;
+security-level private
+wps
+wmm
+up
+!
+interface WifiMaster0/AccessPoint1
+name GuestWiFi
+description &quot;Guest access point&quot;
+security-level private
+ip address 10.1.30.1 255.255.255.0
+ssid Guest
+wmm
+down
+!
+interface Bridge0
+include WifiMaster0/AccessPoint0
+!
+ip dhcp pool _WEBADMIN_GUEST_AP
+range 10.1.30.33 20
+bind GuestWiFi
+!
+ip nat GuestWiFi
+	</script>
+        <installed>2.6.23-rt+2.7.1.2-18-1</installed>
+    </component>
+    <component>
+        <queued>yes</queued>
+        <name>ydns</name>
+        <description>Yandex.DNS content filtering and parental control</description>
+        <details>Safe internet browsing.</details>
+        <description lang="RU">&#x0418;&#x043d;&#x0442;&#x0435;&#x0440;&#x043d;&#x0435;&#x0442;-&#x0444;&#x0438;&#x043b;&#x044c;&#x0442;&#x0440; &#x042f;&#x043d;&#x0434;&#x0435;&#x043a;&#x0441;.DNS</description>
+        <details lang="RU">&#x0411;&#x0435;&#x0441;&#x043f;&#x043b;&#x0430;&#x0442;&#x043d;&#x044b;&#x0439; &#x0441;&#x0435;&#x0440;&#x0432;&#x0438;&#x0441; &#x0441; &#x0442;&#x0440;&#x0435;&#x043c;&#x044f; &#x0443;&#x0440;&#x043e;&#x0432;&#x043d;&#x044f;&#x043c;&#x0438; &#x0431;&#x0435;&#x0437;&#x043e;&#x043f;&#x0430;&#x0441;&#x043d;&#x043e;&#x0441;&#x0442;&#x0438;</details>
+        <group>Applications</group>
+        <priority>normal</priority>
+        <size>14121</size>
+        <order>2</order>
+        <version>2.05.C.4.0-0</version>
+        <hash>c3657c58a3d5881d3149e0bcb4c492ff</hash>
+        <installed>2.02.1.A.4</installed>
+    </component>
+    <component>
+        <queued>yes</queued>
+        <name>pppoe</name>
+        <description>PPPoE client</description>
+        <details>Allows to establish PPPoE connections from this appliance.</details>
+        <description lang="RU">&#x041a;&#x043b;&#x0438;&#x0435;&#x043d;&#x0442; PPPoE</description>
+        <details lang="RU">&#x041f;&#x043e;&#x0437;&#x0432;&#x043e;&#x043b;&#x044f;&#x0435;&#x0442; &#x0443;&#x0441;&#x0442;&#x0430;&#x043d;&#x0430;&#x0432;&#x043b;&#x0438;&#x0432;&#x0430;&#x0442;&#x044c; &#x043f;&#x043e;&#x0434;&#x043a;&#x043b;&#x044e;&#x0447;&#x0435;&#x043d;&#x0438;&#x044f; PPPoE &#x0441; &#x044d;&#x0442;&#x043e;&#x0433;&#x043e; &#x0443;&#x0441;&#x0442;&#x0440;&#x043e;&#x0439;&#x0441;&#x0442;&#x0432;&#x0430;.</details>
+        <group>Networking</group>
+        <priority>important</priority>
+        <depend>ppp</depend>
+        <size>25181</size>
+        <order>2</order>
+        <version>2.4.4-15-1</version>
+        <hash>7ec121e70f9ff81799d09e7c47659663</hash>
+        <installed>2.4.4-1</installed>
+    </component>
+    <component>
+        <queued>yes</queued>
+        <name>pptp</name>
+        <description>PPTP client</description>
+        <details>Allows to establish PPTP connections from this appliance.</details>
+        <description lang="RU">&#x041a;&#x043b;&#x0438;&#x0435;&#x043d;&#x0442; PPTP</description>
+        <details lang="RU">&#x041f;&#x043e;&#x0437;&#x0432;&#x043e;&#x043b;&#x044f;&#x0435;&#x0442; &#x0443;&#x0441;&#x0442;&#x0430;&#x043d;&#x0430;&#x0432;&#x043b;&#x0438;&#x0432;&#x0430;&#x0442;&#x044c; &#x043f;&#x043e;&#x0434;&#x043a;&#x043b;&#x044e;&#x0447;&#x0435;&#x043d;&#x0438;&#x044f; PPTP &#x0441; &#x044d;&#x0442;&#x043e;&#x0433;&#x043e; &#x0443;&#x0441;&#x0442;&#x0440;&#x043e;&#x0439;&#x0441;&#x0442;&#x0432;&#x0430;.</details>
+        <group>Networking</group>
+        <priority>normal</priority>
+        <depend>ppp</depend>
+        <size>49144</size>
+        <order>3</order>
+        <version>2.4.4-15-1</version>
+        <hash>2935e254789a79949a303b64baab5ceb</hash>
+        <installed>2.4.4-1</installed>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>ppe</name>
+        <description>Network accelerator engine</description>
+        <details>Improves routing performance.</details>
+        <description lang="RU">&#x0421;&#x0435;&#x0442;&#x0435;&#x0432;&#x043e;&#x0439; &#x0443;&#x0441;&#x043a;&#x043e;&#x0440;&#x0438;&#x0442;&#x0435;&#x043b;&#x044c;</description>
+        <details lang="RU">&#x0423;&#x0432;&#x0435;&#x043b;&#x0438;&#x0447;&#x0438;&#x0432;&#x0430;&#x0435;&#x0442; &#x0441;&#x043a;&#x043e;&#x0440;&#x043e;&#x0441;&#x0442;&#x044c; &#x043c;&#x0430;&#x0440;&#x0448;&#x0440;&#x0443;&#x0442;&#x0438;&#x0437;&#x0430;&#x0446;&#x0438;&#x0438;.</details>
+        <group>Base system</group>
+        <priority>optional</priority>
+        <size>41098</size>
+        <order>3</order>
+        <version>2.6.36+3.0-9-1</version>
+        <hash>4aab3bb8ceaf096643f98ad278a10426</hash>
+    </component>
+    <component>
+        <queued>yes</queued>
+        <name>skydns</name>
+        <description>SkyDNS content filtering and parental control</description>
+        <details>Safe internet browsing.</details>
+        <description lang="RU">&#x0418;&#x043d;&#x0442;&#x0435;&#x0440;&#x043d;&#x0435;&#x0442;-&#x0444;&#x0438;&#x043b;&#x044c;&#x0442;&#x0440; SkyDNS</description>
+        <group>Applications</group>
+        <priority>normal</priority>
+        <size>29094</size>
+        <order>3</order>
+        <version>2.05.C.4.0-0</version>
+        <hash>ae12f095907deb112dc5b14490a5ab55</hash>
+        <installed>2.02.1.A.4</installed>
+    </component>
+    <component>
+        <queued>yes</queued>
+        <name>dhcpd</name>
+        <description>DHCP server</description>
+        <details>Allows a computer to be configured automatically when connected to this appliance. Install this component if unsure.</details>
+        <description lang="RU">&#x0421;&#x0435;&#x0440;&#x0432;&#x0435;&#x0440; DHCP</description>
+        <details lang="RU">&#x041f;&#x043e;&#x0437;&#x0432;&#x043e;&#x043b;&#x044f;&#x0435;&#x0442; &#x0430;&#x0432;&#x0442;&#x043e;&#x043c;&#x0430;&#x0442;&#x0438;&#x0447;&#x0435;&#x0441;&#x043a;&#x0438; &#x043d;&#x0430;&#x0441;&#x0442;&#x0440;&#x0430;&#x0438;&#x0432;&#x0430;&#x0442;&#x044c; &#x043f;&#x0430;&#x0440;&#x0430;&#x043c;&#x0435;&#x0442;&#x0440;&#x044b; IP &#x043d;&#x0430; &#x0443;&#x0437;&#x043b;&#x0430;&#x0445;, &#x043f;&#x043e;&#x0434;&#x043a;&#x043b;&#x044e;&#x0447;&#x0435;&#x043d;&#x043d;&#x044b;&#x0445; &#x043a; &#x044d;&#x0442;&#x043e;&#x043c;&#x0443; &#x0443;&#x0441;&#x0442;&#x0440;&#x043e;&#x0439;&#x0441;&#x0442;&#x0432;&#x0443;. &#x0420;&#x0435;&#x043a;&#x043e;&#x043c;&#x0435;&#x043d;&#x0434;&#x0443;&#x0435;&#x0442;&#x0441;&#x044f; &#x0432;&#x0441;&#x0435;&#x0433;&#x0434;&#x0430; &#x0443;&#x0441;&#x0442;&#x0430;&#x043d;&#x0430;&#x0432;&#x043b;&#x0438;&#x0432;&#x0430;&#x0442;&#x044c; &#x044d;&#x0442;&#x043e;&#x0442; &#x043a;&#x043e;&#x043c;&#x043f;&#x043e;&#x043d;&#x0435;&#x043d;&#x0442;.</details>
+        <group>Base system</group>
+        <priority>important</priority>
+        <size>130592</size>
+        <order>4</order>
+        <version>3.0.9</version>
+        <hash>a1abf5fdfb2e19cf9fc6604bef3c0207</hash>
+        <installed>2.4.7</installed>
+    </component>
+    <component>
+        <queued>yes</queued>
+        <name>igmp</name>
+        <description>IGMP/PPPoE Proxy service</description>
+        <details>The IGMP/PPPoE proxy will proxy IGMP/PPPoE traffic between network segments.</details>
+        <description lang="RU">&#x0421;&#x043b;&#x0443;&#x0436;&#x0431;&#x0430; IGMP/PPPoE proxy</description>
+        <details lang="RU">IGMP/PPPoE proxy &#x0442;&#x0440;&#x0430;&#x043d;&#x0441;&#x043b;&#x0438;&#x0440;&#x0443;&#x0435;&#x0442; &#x0441;&#x043e;&#x043e;&#x0431;&#x0449;&#x0435;&#x043d;&#x0438;&#x044f; IGMP/PPPoE &#x043c;&#x0435;&#x0436;&#x0434;&#x0443; &#x0440;&#x0430;&#x0437;&#x043b;&#x0438;&#x0447;&#x043d;&#x044b;&#x043c;&#x0438; &#x0438;&#x043d;&#x0442;&#x0435;&#x0440;&#x0444;&#x0435;&#x0439;&#x0441;&#x0430;&#x043c;&#x0438;.</details>
+        <group>Base system</group>
+        <priority>important</priority>
+        <size>31812</size>
+        <order>4</order>
+        <version>2.6.36+2.9.14-5</version>
+        <hash>9018bb08e0a6407cfaa3a3d53f322400</hash>
+        <script>
+interface ISP igmp upstream
+interface Home igmp downstream
+service igmp-proxy
+	</script>
+        <installed>2.6.23-rt-11</installed>
+    </component>
+    <component>
+        <queued>yes</queued>
+        <name>l2tp</name>
+        <description>L2TP client</description>
+        <details>Allows to establish L2TP connections from this appliance.</details>
+        <description lang="RU">&#x041a;&#x043b;&#x0438;&#x0435;&#x043d;&#x0442; L2TP</description>
+        <details lang="RU">&#x041f;&#x043e;&#x0437;&#x0432;&#x043e;&#x043b;&#x044f;&#x0435;&#x0442; &#x0443;&#x0441;&#x0442;&#x0430;&#x043d;&#x0430;&#x0432;&#x043b;&#x0438;&#x0432;&#x0430;&#x0442;&#x044c; &#x043f;&#x043e;&#x0434;&#x043a;&#x043b;&#x044e;&#x0447;&#x0435;&#x043d;&#x0438;&#x044f; L2TP &#x0441; &#x044d;&#x0442;&#x043e;&#x0433;&#x043e; &#x0443;&#x0441;&#x0442;&#x0440;&#x043e;&#x0439;&#x0441;&#x0442;&#x0432;&#x0430;.</details>
+        <group>Networking</group>
+        <priority>normal</priority>
+        <depend>ppp</depend>
+        <size>187953</size>
+        <order>4</order>
+        <version>2.4.4-15-1</version>
+        <hash>dbbcdffc3cbb69c056ec1d6249d1750c</hash>
+        <installed>2.4.4-1</installed>
+    </component>
+    <component>
+        <queued>yes</queued>
+        <name>dot1x</name>
+        <description>802.1x based authorization in ISP network</description>
+        <details>Provides a login/password based authentication support over Ethernet networks.</details>
+        <description lang="RU">&#x0410;&#x0432;&#x0442;&#x043e;&#x0440;&#x0438;&#x0437;&#x0430;&#x0446;&#x0438;&#x044f; &#x0432; &#x0441;&#x0435;&#x0442;&#x0438; &#x043f;&#x0440;&#x043e;&#x0432;&#x0430;&#x0439;&#x0434;&#x0435;&#x0440;&#x0430; &#x043f;&#x043e; &#x043f;&#x0440;&#x043e;&#x0442;&#x043e;&#x043a;&#x043e;&#x043b;&#x0443; 802.1x</description>
+        <details lang="RU">&#x041f;&#x0440;&#x0435;&#x0434;&#x043e;&#x0441;&#x0442;&#x0430;&#x0432;&#x043b;&#x044f;&#x0435;&#x0442; &#x0432;&#x043e;&#x0437;&#x043c;&#x043e;&#x0436;&#x043d;&#x043e;&#x0441;&#x0442;&#x044c; &#x0430;&#x0443;&#x0442;&#x0435;&#x043d;&#x0442;&#x0438;&#x0444;&#x0438;&#x043a;&#x0430;&#x0446;&#x0438;&#x0438; &#x0441; &#x0438;&#x0441;&#x043f;&#x043e;&#x043b;&#x044c;&#x0437;&#x043e;&#x0432;&#x0430;&#x043d;&#x0438;&#x0435;&#x043c; &#x0438;&#x043c;&#x0435;&#x043d;&#x0438; &#x043f;&#x043e;&#x043b;&#x044c;&#x0437;&#x043e;&#x0432;&#x0430;&#x0442;&#x0435;&#x043b;&#x044f; &#x0438; &#x043f;&#x0430;&#x0440;&#x043e;&#x043b;&#x044f; &#x0432; &#x0441;&#x0435;&#x0442;&#x044f;&#x0445; Ethernet.</details>
+        <group>Networking</group>
+        <priority>normal</priority>
+        <size>93392</size>
+        <order>5</order>
+        <version>0.5.9-4</version>
+        <hash>dfd35d70a6f86c5ab96683610da64d50</hash>
+        <installed>0.5.9-3</installed>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>kabinet</name>
+        <description>KABiNET authenticator</description>
+        <details>This is the replacement for PC-based utility used by subscribers of the KABiNET ISP</details>
+        <description lang="RU">&#x0410;&#x0432;&#x0442;&#x043e;&#x0440;&#x0438;&#x0437;&#x0430;&#x0442;&#x043e;&#x0440; &#x041a;&#x0410;&#x0411;iNET</description>
+        <details lang="RU">&#x042d;&#x0442;&#x043e; &#x043f;&#x0440;&#x0438;&#x043b;&#x043e;&#x0436;&#x0435;&#x043d;&#x0438;&#x0435; &#x043f;&#x0440;&#x0435;&#x0434;&#x043d;&#x0430;&#x0437;&#x043d;&#x0430;&#x0447;&#x0435;&#x043d;&#x043e; &#x0434;&#x043b;&#x044f; &#x0430;&#x0431;&#x043e;&#x043d;&#x0435;&#x043d;&#x0442;&#x043e;&#x0432; &#x043f;&#x0440;&#x043e;&#x0432;&#x0430;&#x0439;&#x0434;&#x0435;&#x0440;&#x0430; &#x041a;&#x0410;&#x0411;iNET &#x0438; &#x0437;&#x0430;&#x043c;&#x0435;&#x043d;&#x044f;&#x0435;&#x0442; &#x0441;&#x043e;&#x0431;&#x043e;&#x0439; &#x0430;&#x0432;&#x0442;&#x043e;&#x0440;&#x0438;&#x0437;&#x0430;&#x0442;&#x043e;&#x0440;, &#x0443;&#x0441;&#x0442;&#x0430;&#x043d;&#x0430;&#x0432;&#x043b;&#x0438;&#x0432;&#x0430;&#x0435;&#x043c;&#x044b;&#x0439; &#x043d;&#x0430; &#x043a;&#x043e;&#x043c;&#x043f;&#x044c;&#x044e;&#x0442;&#x0435;&#x0440;.</details>
+        <group>Networking</group>
+        <priority>normal</priority>
+        <size>25134</size>
+        <order>6</order>
+        <version>1.0.0-1</version>
+        <hash>4675a4feec11d1b3b117440a77b011c6</hash>
+    </component>
+    <component>
+        <queued>yes</queued>
+        <name>miniupnpd</name>
+        <description>UPnP service</description>
+        <details>Allows the NAT and the firewall rules on this appliance to be configured automaticaly.</details>
+        <description lang="RU">&#x0421;&#x043b;&#x0443;&#x0436;&#x0431;&#x0430; UPnP</description>
+        <details lang="RU">&#x041f;&#x043e;&#x0437;&#x0432;&#x043e;&#x043b;&#x044f;&#x0435;&#x0442; &#x0430;&#x0432;&#x0442;&#x043e;&#x043c;&#x0430;&#x0442;&#x0438;&#x0447;&#x0435;&#x0441;&#x043a;&#x0438; &#x043d;&#x0430;&#x0441;&#x0442;&#x0440;&#x0430;&#x0438;&#x0432;&#x0430;&#x0442;&#x044c; &#x043d;&#x0435;&#x043e;&#x0431;&#x0445;&#x043e;&#x0434;&#x0438;&#x043c;&#x044b;&#x0435; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x0430; NAT &#x0438; &#x043c;&#x0435;&#x0436;&#x0441;&#x0435;&#x0442;&#x0435;&#x0432;&#x043e;&#x0433;&#x043e; &#x044d;&#x043a;&#x0440;&#x0430;&#x043d;&#x0430;.</details>
+        <group>Base system</group>
+        <priority>normal</priority>
+        <size>64784</size>
+        <order>6</order>
+        <version>1.8.20130730-14</version>
+        <hash>1ce6912357ccc692fa8d8cf0822825b3</hash>
+        <script>
+upnp lan Home
+service upnp
+	</script>
+        <installed>1.4.20100921-1</installed>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>udpxy</name>
+        <description>UDP-to-HTTP relay daemon (udpxy)</description>
+        <details>Allows multicast-unaware home network devices to receive IPTV.</details>
+        <description lang="RU">UDP-HTTP &#x043f;&#x0440;&#x043e;&#x043a;&#x0441;&#x0438; (udpxy)</description>
+        <details lang="RU">&#x041f;&#x043e;&#x0437;&#x0432;&#x043e;&#x043b;&#x044f;&#x0435;&#x0442; &#x0441;&#x043c;&#x043e;&#x0442;&#x0440;&#x0435;&#x0442;&#x044c; &#x043a;&#x0430;&#x043d;&#x0430;&#x043b;&#x044b; IP-&#x0442;&#x0435;&#x043b;&#x0435;&#x0432;&#x0438;&#x0434;&#x0435;&#x043d;&#x0438;&#x044f; &#x043d;&#x0430; &#x0443;&#x0441;&#x0442;&#x0440;&#x043e;&#x0439;&#x0441;&#x0442;&#x0432;&#x0430;&#x0445; &#x0434;&#x043e;&#x043c;&#x0430;&#x0448;&#x043d;&#x0435;&#x0439; &#x0441;&#x0435;&#x0442;&#x0438;, &#x043d;&#x0435; &#x043f;&#x043e;&#x0434;&#x0434;&#x0435;&#x0440;&#x0436;&#x0438;&#x0432;&#x0430;&#x044e;&#x0449;&#x0438;&#x0445; multicast.</details>
+        <group>Applications</group>
+        <priority>normal</priority>
+        <size>35936</size>
+        <order>7</order>
+        <version>1.0.23-9-7</version>
+        <hash>93ab383044ac5e13097523783603d099</hash>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>nathelper-ftp</name>
+        <description>Application-layer gateway (ALG) for FTP</description>
+        <details>Provides customized NAT traversal filters to support address and port translation for FTP protocol.</details>
+        <description lang="RU">&#x0428;&#x043b;&#x044e;&#x0437; &#x043f;&#x0440;&#x0438;&#x043a;&#x043b;&#x0430;&#x0434;&#x043d;&#x043e;&#x0433;&#x043e; &#x0443;&#x0440;&#x043e;&#x0432;&#x043d;&#x044f; (ALG) &#x0434;&#x043b;&#x044f; FTP</description>
+        <group>Networking</group>
+        <priority>normal</priority>
+        <size>5552</size>
+        <order>7</order>
+        <version>2.6.36-1</version>
+        <hash>98f4e0ed4d7b274bfe733fba45c40892</hash>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>nathelper-rtsp</name>
+        <description>Application-layer gateway (ALG) for RTSP</description>
+        <details>Provides customized NAT traversal filters to support address and port translation for RTSP protocol.</details>
+        <description lang="RU">&#x0428;&#x043b;&#x044e;&#x0437; &#x043f;&#x0440;&#x0438;&#x043a;&#x043b;&#x0430;&#x0434;&#x043d;&#x043e;&#x0433;&#x043e; &#x0443;&#x0440;&#x043e;&#x0432;&#x043d;&#x044f; (ALG) &#x0434;&#x043b;&#x044f; RTSP</description>
+        <group>Networking</group>
+        <priority>normal</priority>
+        <size>9300</size>
+        <order>7</order>
+        <version>2.6.36-1</version>
+        <hash>c774c035bbfa41a720977a6fcaa9a180</hash>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>nathelper-sip</name>
+        <description>Application-layer gateway (ALG) for SIP</description>
+        <details>Provides customized NAT traversal filters to support address and port translation for SIP protocol.</details>
+        <description lang="RU">&#x0428;&#x043b;&#x044e;&#x0437; &#x043f;&#x0440;&#x0438;&#x043a;&#x043b;&#x0430;&#x0434;&#x043d;&#x043e;&#x0433;&#x043e; &#x0443;&#x0440;&#x043e;&#x0432;&#x043d;&#x044f; (ALG) &#x0434;&#x043b;&#x044f; SIP</description>
+        <group>Networking</group>
+        <priority>normal</priority>
+        <size>16420</size>
+        <order>7</order>
+        <version>2.6.36-1</version>
+        <hash>fbc572fa2712f2481d639c6aa5c52930</hash>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>nathelper-pptp</name>
+        <description>Application-layer gateway (ALG) for PPTP/GRE</description>
+        <details>Provides customized NAT traversal filters to support address and port translation for PPTP/GRE protocols.</details>
+        <description lang="RU">&#x0428;&#x043b;&#x044e;&#x0437; &#x043f;&#x0440;&#x0438;&#x043a;&#x043b;&#x0430;&#x0434;&#x043d;&#x043e;&#x0433;&#x043e; &#x0443;&#x0440;&#x043e;&#x0432;&#x043d;&#x044f; (ALG) &#x0434;&#x043b;&#x044f; PPTP/GRE</description>
+        <group>Networking</group>
+        <priority>normal</priority>
+        <size>8689</size>
+        <order>7</order>
+        <version>2.6.36-1</version>
+        <hash>391f0679f4fbf425df06ae76efffc58f</hash>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>ip6</name>
+        <description>IPv6</description>
+        <details>Provides IPv6 protocol support and related services.</details>
+        <description lang="RU">IPv6</description>
+        <details lang="RU">&#x041f;&#x043e;&#x0434;&#x0434;&#x0435;&#x0440;&#x0436;&#x043a;&#x0430; &#x043f;&#x0440;&#x043e;&#x0442;&#x043e;&#x043a;&#x043e;&#x043b;&#x0430; IPv6 &#x0438; &#x0441;&#x0432;&#x044f;&#x0437;&#x0430;&#x043d;&#x043d;&#x044b;&#x0445; &#x0441; &#x043d;&#x0438;&#x043c; &#x0441;&#x043b;&#x0443;&#x0436;&#x0431;</details>
+        <group>Networking</group>
+        <priority>normal</priority>
+        <size>589049</size>
+        <order>8</order>
+        <version>2.6.36-1</version>
+        <hash>42f1ceac902c7cdbf2d441bba7d245a7</hash>
+        <script>
+system
+set net.ipv6.conf.all.forwarding 1
+!
+interface ISP
+ipv6 address auto
+ipv6 prefix auto
+ipv6 name-servers auto
+!
+ipv6 firewall
+ipv6 subnet Default
+bind Home
+number 0
+mode slaac
+!
+	</script>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>pingcheck</name>
+        <description>Connectivity checker</description>
+        <details>Performs icmp- and tcp-based tests to verify if the internet connection is working fine. Test results may be used to switch between primary and backup connections.</details>
+        <description lang="RU">&#x041f;&#x0440;&#x043e;&#x0432;&#x0435;&#x0440;&#x043a;&#x0430; &#x0434;&#x043e;&#x0441;&#x0442;&#x0443;&#x043f;&#x043d;&#x043e;&#x0441;&#x0442;&#x0438; &#x0438;&#x043d;&#x0442;&#x0435;&#x0440;&#x043d;&#x0435;&#x0442;&#x0430; (Ping checker)</description>
+        <details lang="RU">&#x041e;&#x043f;&#x0440;&#x0435;&#x0434;&#x0435;&#x043b;&#x044f;&#x0435;&#x0442; &#x0440;&#x0430;&#x0431;&#x043e;&#x0442;&#x043e;&#x0441;&#x043f;&#x043e;&#x0441;&#x043e;&#x0431;&#x043d;&#x043e;&#x0441;&#x0442;&#x044c; &#x043f;&#x043e;&#x0434;&#x043a;&#x043b;&#x044e;&#x0447;&#x0435;&#x043d;&#x0438;&#x044f; &#x043a; &#x0438;&#x043d;&#x0442;&#x0435;&#x0440;&#x043d;&#x0435;&#x0442;&#x0443; &#x043f;&#x043e; &#x0434;&#x043e;&#x0441;&#x0442;&#x0443;&#x043f;&#x043d;&#x043e;&#x0441;&#x0442;&#x0438; &#x0437;&#x0430;&#x0434;&#x0430;&#x043d;&#x043d;&#x043e;&#x0433;&#x043e; &#x0443;&#x0437;&#x043b;&#x0430;. &#x0420;&#x0435;&#x0437;&#x0443;&#x043b;&#x044c;&#x0442;&#x0430;&#x0442; &#x043f;&#x0440;&#x043e;&#x0432;&#x0435;&#x0440;&#x043a;&#x0438; &#x043c;&#x043e;&#x0436;&#x0435;&#x0442; &#x0431;&#x044b;&#x0442;&#x044c; &#x0438;&#x0441;&#x043f;&#x043e;&#x043b;&#x044c;&#x0437;&#x043e;&#x0432;&#x0430;&#x043d; &#x0434;&#x043b;&#x044f; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x044e;&#x0447;&#x0435;&#x043d;&#x0438;&#x044f; &#x043c;&#x0435;&#x0436;&#x0434;&#x0443; &#x043e;&#x0441;&#x043d;&#x043e;&#x0432;&#x043d;&#x044b;&#x043c; &#x0438; &#x0440;&#x0435;&#x0437;&#x0435;&#x0440;&#x0432;&#x043d;&#x044b;&#x043c; &#x043f;&#x043e;&#x0434;&#x043a;&#x043b;&#x044e;&#x0447;&#x0435;&#x043d;&#x0438;&#x044f;&#x043c;&#x0438; &#x043a; &#x0438;&#x043d;&#x0442;&#x0435;&#x0440;&#x043d;&#x0435;&#x0442;&#x0443;.</details>
+        <group>Applications</group>
+        <priority>normal</priority>
+        <size>41186</size>
+        <order>8</order>
+        <version>2.05.C.4.0-0</version>
+        <hash>de7147469b81c5189c3ec659bd78b35e</hash>
+    </component>
+    <component>
+        <queued>yes</queued>
+        <name>easyconfig</name>
+        <description>Easyconfig wizards</description>
+        <description lang="RU">&#x0411;&#x044b;&#x0441;&#x0442;&#x0440;&#x0430;&#x044f; &#x043d;&#x0430;&#x0441;&#x0442;&#x0440;&#x043e;&#x0439;&#x043a;&#x0430; NetFriend</description>
+        <group>Base system</group>
+        <priority>normal</priority>
+        <size>31571</size>
+        <order>8</order>
+        <version>2.05.C.4.0-0</version>
+        <hash>e6bf7adc16ceee4bcd2865592d5193d1</hash>
+        <installed>2.02.1.A.4</installed>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>ddns</name>
+        <description>Dynamic DNS (DDNS) client</description>
+        <details>Keeps track of dynamic public IP-address on this appliance, and maps it to static domain name automatically when changed</details>
+        <description lang="RU">&#x041a;&#x043b;&#x0438;&#x0435;&#x043d;&#x0442; &#x0434;&#x0438;&#x043d;&#x0430;&#x043c;&#x0438;&#x0447;&#x0435;&#x0441;&#x043a;&#x043e;&#x0433;&#x043e; DNS (DDNS)</description>
+        <details lang="RU">&#x041e;&#x0442;&#x0441;&#x043b;&#x0435;&#x0436;&#x0438;&#x0432;&#x0430;&#x0435;&#x0442; &#x0438;&#x0437;&#x043c;&#x0435;&#x043d;&#x0435;&#x043d;&#x0438;&#x044f; &#x0434;&#x0438;&#x043d;&#x0430;&#x043c;&#x0438;&#x0447;&#x0435;&#x0441;&#x043a;&#x043e;&#x0433;&#x043e; &#x0432;&#x043d;&#x0435;&#x0448;&#x043d;&#x0435;&#x0433;&#x043e; IP-&#x0430;&#x0434;&#x0440;&#x0435;&#x0441;&#x0430; &#x0438; &#x0430;&#x0432;&#x0442;&#x043e;&#x043c;&#x0430;&#x0442;&#x0438;&#x0447;&#x0435;&#x0441;&#x043a;&#x0438; &#x0441;&#x043e;&#x043f;&#x043e;&#x0441;&#x0442;&#x0430;&#x0432;&#x043b;&#x044f;&#x0435;&#x0442; &#x0435;&#x0433;&#x043e; &#x0441; &#x0437;&#x0430;&#x0434;&#x0430;&#x043d;&#x043d;&#x044b;&#x043c; &#x0434;&#x043e;&#x043c;&#x0435;&#x043d;&#x043d;&#x044b;&#x043c; &#x0438;&#x043c;&#x0435;&#x043d;&#x0435;&#x043c;.</details>
+        <group>Base system</group>
+        <priority>normal</priority>
+        <size>35453</size>
+        <order>9</order>
+        <version>2.05.C.4.0-0</version>
+        <hash>ebc5a0510a7b2d1b566c8686c561ed01</hash>
+        <script>
+dyndns profile _WEBADMIN
+	</script>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>monitor</name>
+        <description>Packet capture module</description>
+        <details>Allows to capture network traffic on router interfaces.</details>
+        <description lang="RU">&#x041c;&#x043e;&#x0434;&#x0443;&#x043b;&#x044c; &#x0437;&#x0430;&#x0445;&#x0432;&#x0430;&#x0442;&#x0430; &#x0441;&#x0435;&#x0442;&#x0435;&#x0432;&#x044b;&#x0445; &#x043f;&#x0430;&#x043a;&#x0435;&#x0442;&#x043e;&#x0432;</description>
+        <details lang="RU">&#x041f;&#x043e;&#x0437;&#x0432;&#x043e;&#x043b;&#x044f;&#x0435;&#x0442; &#x0437;&#x0430;&#x0445;&#x0432;&#x0430;&#x0442;&#x044b;&#x0432;&#x0430;&#x0442;&#x044c; &#x0438; &#x0441;&#x043e;&#x0445;&#x0440;&#x0430;&#x043d;&#x044f;&#x0442;&#x044c; &#x043f;&#x0430;&#x043a;&#x0435;&#x0442;&#x044b;, &#x043f;&#x0440;&#x043e;&#x0445;&#x043e;&#x0434;&#x044f;&#x0449;&#x0438;&#x0435; &#x0447;&#x0435;&#x0440;&#x0435;&#x0437; &#x0441;&#x0435;&#x0442;&#x0435;&#x0432;&#x044b;&#x0435; &#x0438;&#x043d;&#x0442;&#x0435;&#x0440;&#x0444;&#x0435;&#x0439;&#x0441;&#x044b; &#x0440;&#x043e;&#x0443;&#x0442;&#x0435;&#x0440;&#x0430;.</details>
+        <group>Networking</group>
+        <priority>normal</priority>
+        <size>127910</size>
+        <order>12</order>
+        <version>1.0.0</version>
+        <hash>245bd9be1e2fb4c2a40cf6e555e5a995</hash>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>cloudcontrol</name>
+        <description>Cloud service for router control</description>
+        <description lang="RU">&#x041c;&#x043e;&#x0434;&#x0443;&#x043b;&#x044c; &#x0443;&#x043f;&#x0440;&#x0430;&#x0432;&#x043b;&#x0435;&#x043d;&#x0438;&#x044f; &#x043c;&#x0430;&#x0440;&#x0448;&#x0440;&#x0443;&#x0442;&#x0438;&#x0437;&#x0430;&#x0442;&#x043e;&#x0440;&#x043e;&#x043c; &#x0447;&#x0435;&#x0440;&#x0435;&#x0437; &#x043e;&#x0431;&#x043b;&#x0430;&#x0447;&#x043d;&#x0443;&#x044e; &#x0441;&#x043b;&#x0443;&#x0436;&#x0431;&#x0443;</description>
+        <group>Applications</group>
+        <priority>normal</priority>
+        <depend>cloud</depend>
+        <size>67926</size>
+        <order>13</order>
+        <version>2.05.C.4.0-0</version>
+        <hash>d0486abf3f025a2e18abad751eb5a263</hash>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>nathelper-h323</name>
+        <description>Application-layer gateway (ALG) for H.323</description>
+        <details>Provides customized NAT traversal filters to support address and port translation for H.323 protocol.</details>
+        <description lang="RU">&#x0428;&#x043b;&#x044e;&#x0437; &#x043f;&#x0440;&#x0438;&#x043a;&#x043b;&#x0430;&#x0434;&#x043d;&#x043e;&#x0433;&#x043e; &#x0443;&#x0440;&#x043e;&#x0432;&#x043d;&#x044f; (ALG) &#x0434;&#x043b;&#x044f; H.323</description>
+        <group>Networking</group>
+        <priority>normal</priority>
+        <size>20702</size>
+        <order>16</order>
+        <version>2.6.36-1</version>
+        <hash>9069d043e0e3d0b8e8b7bcbd3762755c</hash>
+    </component>
+    <component>
+        <queued>no</queued>
+        <name>trafficcontrol</name>
+        <description>Simple traffic control module</description>
+        <details> Provides basic network rate limitation functionality.</details>
+        <description lang="RU">&#x0423;&#x043f;&#x0440;&#x0430;&#x0432;&#x043b;&#x0435;&#x043d;&#x0438;&#x0435; &#x043f;&#x0440;&#x043e;&#x043f;&#x0443;&#x0441;&#x043a;&#x043d;&#x043e;&#x0439; &#x043f;&#x043e;&#x043b;&#x043e;&#x0441;&#x043e;&#x0439; &#x0441;&#x0435;&#x0442;&#x0435;&#x0432;&#x044b;&#x0445; &#x0443;&#x0437;&#x043b;&#x043e;&#x0432; &#x0438; &#x0438;&#x043d;&#x0442;&#x0435;&#x0440;&#x0444;&#x0435;&#x0439;&#x0441;&#x043e;&#x0432;</description>
+        <details lang="RU"> &#x041f;&#x043e;&#x0437;&#x0432;&#x043e;&#x043b;&#x044f;&#x0435;&#x0442; &#x043e;&#x0433;&#x0440;&#x0430;&#x043d;&#x0438;&#x0447;&#x0438;&#x0432;&#x0430;&#x0442;&#x044c; &#x043f;&#x0440;&#x043e;&#x043f;&#x0443;&#x0441;&#x043a;&#x043d;&#x0443;&#x044e; &#x043f;&#x043e;&#x043b;&#x043e;&#x0441;&#x0443; &#x0434;&#x043b;&#x044f; &#x043e;&#x0442;&#x0434;&#x0435;&#x043b;&#x044c;&#x043d;&#x044b;&#x0445; &#x0441;&#x0435;&#x0442;&#x0435;&#x0432;&#x044b;&#x0445; &#x0443;&#x0437;&#x043b;&#x043e;&#x0432; &#x0438; &#x0438;&#x043d;&#x0442;&#x0435;&#x0440;&#x0444;&#x0435;&#x0439;&#x0441;&#x043e;&#x0432;.</details>
+        <group>Networking</group>
+        <priority>normal</priority>
+        <size>21381</size>
+        <order>18</order>
+        <version>2.6.36+1.0.1-1</version>
+        <hash>02f94bb00424d2cdc0162f9bc97e4133</hash>
+        <script>
+interface GuestWiFi traffic-shape rate 5000
+	</script>
+    </component>
+    <!-- show associations -->
+    <station>
+        <mac>b0:e8:92:f5:86:b6</mac>
+        <ap>0</ap>
+        <authenticated>1</authenticated>
+        <txrate>54</txrate>
+    </station>
+    <!-- show clock date -->
+    <weekday>5</weekday>
+    <day>30</day>
+    <month>9</month>
+    <year>2016</year>
+    <hour>11</hour>
+    <min>47</min>
+    <sec>22</sec>
+    <msec>244</msec>
+    <dst>inactive</dst>
+    <tz>
+        <locality>Asia/Singapore</locality>
+        <stdoffset>28800</stdoffset>
+        <dstoffset>0</dstoffset>
+        <usesdst>no</usesdst>
+        <rule>SGT-8</rule>
+        <custom>no</custom>
+    </tz>
+    <!-- show defaults -->
+    <servicehost>ndss.11.zyxel.ndmsystems.com</servicehost>
+    <servicepass>***************</servicepass>
+    <wlanssid>Keenetic-0512</wlanssid>
+    <wlankey>Hter43Ro</wlankey>
+    <wlanwps>35805984</wlanwps>
+    <country>RU</country>
+    <ndmhwid>kl_rd</ndmhwid>
+    <ctrlsum>114278ff076dda758911938109648e60</ctrlsum>
+    <integrity>ok</integrity>
+    <!-- show dot1x -->
+    <!-- show drivers -->
+    <module>
+        <name>igmpsn</name>
+        <size>53520</size>
+        <used>0</used>
+        <subs>-</subs>
+        <args>wan_if=eth2.2 lan_if=br0</args>
+    </module>
+    <module>
+        <name>rt2860v2_ap</name>
+        <size>858368</size>
+        <used>1</used>
+        <subs>-</subs>
+        <args> mac=&quot;ee:43:f6:ce:9c:58&quot;</args>
+    </module>
+    <module>
+        <name>resetnds</name>
+        <size>1296</size>
+        <used>0</used>
+        <subs>-</subs>
+        <args>-</args>
+    </module>
+    <module>
+        <name>rtled</name>
+        <size>4928</size>
+        <used>7</used>
+        <subs>rt2860v2_ap</subs>
+        <args>-</args>
+    </module>
+    <module>
+        <name>ralink_wdt</name>
+        <size>832</size>
+        <used>0</used>
+        <subs>-</subs>
+        <args>-</args>
+    </module>
+    <!-- show dyndns -->
+    <dyndns>
+        <profile>_WEBADMIN</profile>
+        <status>unknown</status>
+        <domain/>
+        <message/>
+    </dyndns>
+    <!-- show environment -->
+    <environment>
+        <WIFI_RADIO>1</WIFI_RADIO>
+    </environment>
+    <!-- show identification -->
+    <servicetag>911501492925391</servicetag>
+    <serial>S132E30033609</serial>
+    <mac>ec:43:f6:ce:9c:5b</mac>
+    <hwid>kl_rd</hwid>
+    <!-- show interface -->
+    <interface name="Switch0">
+        <index>0</index>
+        <type>Switch</type>
+        <description/>
+        <state>up</state>
+        <link>up</link>
+        <mtu>1500</mtu>
+        <port name="4">
+            <link>down</link>
+            <speed/>
+            <duplex/>
+        </port>
+        <port name="3">
+            <link>up</link>
+            <speed>100M</speed>
+            <duplex>full</duplex>
+        </port>
+        <port name="2">
+            <link>up</link>
+            <speed>100M</speed>
+            <duplex>full</duplex>
+        </port>
+        <port name="1">
+            <link>up</link>
+            <speed>100M</speed>
+            <duplex>full</duplex>
+        </port>
+        <port name="0">
+            <link>up</link>
+            <speed>100M</speed>
+            <duplex>full</duplex>
+        </port>
+    </interface>
+    <interface name="Switch0/VLAN1">
+        <mac>ec:43:f6:ce:9c:5a</mac>
+        <index>1</index>
+        <type>VLAN</type>
+        <description>Home VLAN</description>
+        <state>up</state>
+        <link>up</link>
+        <mtu>1500</mtu>
+        <group>Bridge0</group>
+        <auth-type>none</auth-type>
+    </interface>
+    <interface name="ISP">
+        <mac>ec:43:f6:ce:9c:5b</mac>
+        <index>2</index>
+        <type>VLAN</type>
+        <description>Broadband connection</description>
+        <state>up</state>
+        <link>down</link>
+        <mtu>1500</mtu>
+        <address>0.0.0.0</address>
+        <mask>0.0.0.0</mask>
+        <broadcast>0.0.0.0</broadcast>
+        <global>yes</global>
+        <defaultgw>no</defaultgw>
+        <priority>700</priority>
+        <auth-type>none</auth-type>
+    </interface>
+    <interface name="Switch0/VLAN3">
+        <mac>ec:43:f6:ce:9c:5a</mac>
+        <index>3</index>
+        <type>VLAN</type>
+        <description>internetwan-n</description>
+        <state>up</state>
+        <link>up</link>
+        <mtu>1500</mtu>
+        <address>192.168.10.223</address>
+        <mask>255.255.255.0</mask>
+        <broadcast>192.168.10.255</broadcast>
+        <global>yes</global>
+        <defaultgw>yes</defaultgw>
+        <priority>700</priority>
+        <auth-type>none</auth-type>
+    </interface>
+    <interface name="WifiMaster0">
+        <index>0</index>
+        <type>WifiMaster</type>
+        <description/>
+        <state>up</state>
+        <link>up</link>
+        <mtu>1500</mtu>
+        <bitrate>150000000</bitrate>
+        <channel>1</channel>
+        <hwstate>on</hwstate>
+    </interface>
+    <interface name="AccessPoint">
+        <mac>ee:43:f6:ce:9c:58</mac>
+        <index>0</index>
+        <type>AccessPoint</type>
+        <description>Wi-Fi access point</description>
+        <state>up</state>
+        <link>up</link>
+        <mtu>1500</mtu>
+        <group>Bridge0</group>
+        <auth-type>none</auth-type>
+        <ssid>BCGMS</ssid>
+    </interface>
+    <interface name="GuestWiFi">
+        <mac>ee:43:f6:ce:9c:59</mac>
+        <index>1</index>
+        <type>AccessPoint</type>
+        <description>Guest access point</description>
+        <state>down</state>
+        <link>down</link>
+        <mtu>1500</mtu>
+        <global>no</global>
+        <auth-type>none</auth-type>
+    </interface>
+    <interface name="WifiMaster0/AccessPoint2">
+        <mac>ee:43:f6:ce:9c:5a</mac>
+        <index>2</index>
+        <type>AccessPoint</type>
+        <description/>
+        <state>down</state>
+        <link>down</link>
+        <mtu>1500</mtu>
+        <global>no</global>
+        <auth-type>none</auth-type>
+    </interface>
+    <interface name="WifiMaster0/AccessPoint3">
+        <mac>ee:43:f6:ce:9c:5b</mac>
+        <index>3</index>
+        <type>AccessPoint</type>
+        <description/>
+        <state>down</state>
+        <link>down</link>
+        <mtu>1500</mtu>
+        <global>no</global>
+        <auth-type>none</auth-type>
+    </interface>
+    <interface name="WifiStation">
+        <ap>00:00:00:00:00:00</ap>
+        <mac>ee:43:f6:ce:9c:5c</mac>
+        <index>0</index>
+        <type>WifiStation</type>
+        <description>Wi-Fi client</description>
+        <state>down</state>
+        <link>down</link>
+        <mtu>1500</mtu>
+        <global>yes</global>
+        <defaultgw>no</defaultgw>
+        <priority>500</priority>
+        <auth-type>none</auth-type>
+    </interface>
+    <interface name="Home">
+        <mac>ec:43:f6:ce:9c:5a</mac>
+        <index>0</index>
+        <type>Bridge</type>
+        <description>Home network</description>
+        <state>up</state>
+        <link>up</link>
+        <mtu>1500</mtu>
+        <address>10.9.10.254</address>
+        <mask>255.255.255.0</mask>
+        <broadcast>10.9.10.255</broadcast>
+        <global>no</global>
+        <auth-type>none</auth-type>
+    </interface>
+    <!-- show interface mac -->
+    <mactable>
+        <port>2</port>
+        <mac>20:89:84:e4:c8:0f</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>4</port>
+        <mac>b0:e8:92:f5:86:b6</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>1</port>
+        <mac>bc:5f:f4:60:e6:84</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>0</port>
+        <mac>01:00:5e:7f:ff:fa</mac>
+        <aging>7</aging>
+    </mactable>
+    <mactable>
+        <port>1</port>
+        <mac>00:19:db:bc:1e:21</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>4</port>
+        <mac>00:1b:21:39:1b:5b</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>4</port>
+        <mac>ec:43:f6:ce:9c:5a</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>2</port>
+        <mac>74:d4:35:0a:f2:3c</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>4</port>
+        <mac>ec:43:f6:ce:9c:5b</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>4</port>
+        <mac>ec:43:f6:ce:9c:5a</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>1</port>
+        <mac>70:62:b8:7d:00:8b</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>2</port>
+        <mac>20:89:84:e4:cd:61</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>1</port>
+        <mac>6c:19:8f:b1:9e:44</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>2</port>
+        <mac>20:89:84:e4:c7:9f</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>2</port>
+        <mac>01:00:5e:00:00:fc</mac>
+        <aging>7</aging>
+    </mactable>
+    <mactable>
+        <port>2</port>
+        <mac>20:89:84:fd:34:40</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>0</port>
+        <mac>01:00:5e:00:00:fb</mac>
+        <aging>7</aging>
+    </mactable>
+    <mactable>
+        <port>2</port>
+        <mac>00:14:85:cc:ad:5b</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>2</port>
+        <mac>00:e0:4c:36:1d:6c</mac>
+        <aging>1</aging>
+    </mactable>
+    <mactable>
+        <port>4</port>
+        <mac>00:25:22:fa:20:2e</mac>
+        <aging>3</aging>
+    </mactable>
+    <mactable>
+        <port>1</port>
+        <mac>20:89:84:e2:3c:0e</mac>
+        <aging>1</aging>
+    </mactable>
+    <!-- show ip arp -->
+    <arp>
+        <ip>10.9.10.18</ip>
+        <mac>00:19:db:bc:1e:21</mac>
+        <interface>Home</interface>
+    </arp>
+    <arp>
+        <ip>10.9.10.240</ip>
+        <mac>6c:19:8f:b1:9e:44</mac>
+        <interface>Home</interface>
+    </arp>
+    <arp>
+        <ip>10.9.10.36</ip>
+        <mac>20:89:84:e4:c8:0f</mac>
+        <interface>Home</interface>
+    </arp>
+    <arp>
+        <ip>10.9.10.62</ip>
+        <mac>bc:5f:f4:60:e6:84</mac>
+        <interface>Home</interface>
+    </arp>
+    <arp>
+        <ip>10.9.10.75</ip>
+        <mac>20:89:84:e4:cd:61</mac>
+        <interface>Home</interface>
+    </arp>
+    <arp>
+        <ip>10.9.10.20</ip>
+        <mac>20:89:84:e2:3c:0e</mac>
+        <interface>Home</interface>
+    </arp>
+    <arp>
+        <ip>10.9.10.16</ip>
+        <mac>74:d4:35:0a:f2:3c</mac>
+        <interface>Home</interface>
+    </arp>
+    <arp>
+        <name>1</name>
+        <ip>10.9.10.121</ip>
+        <mac>20:89:84:fd:34:40</mac>
+        <interface>Home</interface>
+    </arp>
+    <arp>
+        <ip>10.9.10.65</ip>
+        <mac>20:89:84:e4:c7:9f</mac>
+        <interface>Home</interface>
+    </arp>
+    <arp>
+        <ip>10.9.10.21</ip>
+        <mac>70:62:b8:7d:00:8b</mac>
+        <interface>Home</interface>
+    </arp>
+    <arp>
+        <ip>10.9.10.200</ip>
+        <mac>00:e0:4c:36:1d:6c</mac>
+        <interface>Home</interface>
+    </arp>
+    <arp>
+        <ip>192.168.10.100</ip>
+        <mac>00:1b:21:39:1b:5b</mac>
+        <interface>Switch0/VLAN3</interface>
+    </arp>
+    <!-- show ip dhcp bindings -->
+    <!-- show ip dhcp client -->
+    <dhcp-client>
+        <id>WifiMaster0/AccessPoint0</id>
+        <name>AccessPoint</name>
+        <service>disabled</service>
+        <state>disabled</state>
+    </dhcp-client>
+    <dhcp-client>
+        <id>WifiMaster0/AccessPoint1</id>
+        <name>GuestWiFi</name>
+        <service>disabled</service>
+        <state>disabled</state>
+    </dhcp-client>
+    <dhcp-client>
+        <id>WifiMaster0/AccessPoint2</id>
+        <name>WifiMaster0/AccessPoint2</name>
+        <service>disabled</service>
+        <state>disabled</state>
+    </dhcp-client>
+    <dhcp-client>
+        <id>WifiMaster0/AccessPoint3</id>
+        <name>WifiMaster0/AccessPoint3</name>
+        <service>disabled</service>
+        <state>disabled</state>
+    </dhcp-client>
+    <dhcp-client>
+        <id>WifiMaster0/WifiStation0</id>
+        <name>WifiStation</name>
+        <service>disabled</service>
+        <state>disabled</state>
+    </dhcp-client>
+    <dhcp-client>
+        <id>Switch0/VLAN1</id>
+        <name>Switch0/VLAN1</name>
+        <service>disabled</service>
+        <state>disabled</state>
+    </dhcp-client>
+    <dhcp-client>
+        <id>Switch0/VLAN2</id>
+        <name>ISP</name>
+        <service>standby</service>
+        <state>link down</state>
+    </dhcp-client>
+    <dhcp-client>
+        <id>Switch0/VLAN3</id>
+        <name>Switch0/VLAN3</name>
+        <service>disabled</service>
+        <state>disabled</state>
+    </dhcp-client>
+    <dhcp-client>
+        <id>Bridge0</id>
+        <name>Home</name>
+        <service>disabled</service>
+        <state>disabled</state>
+    </dhcp-client>
+    <!-- show ip name-server -->
+    <server>
+        <address>77.88.8.8</address>
+        <domain/>
+        <global>0</global>
+    </server>
+    <server>
+        <address>77.88.8.88</address>
+        <domain/>
+        <global>0</global>
+    </server>
+    <server>
+        <address>77.88.8.7</address>
+        <domain/>
+        <global>0</global>
+    </server>
+    <server>
+        <address>192.168.10.100</address>
+        <domain/>
+        <global>700</global>
+    </server>
+    <server>
+        <address>8.8.4.4</address>
+        <domain/>
+        <global>700</global>
+    </server>
+    <!-- show ip route -->
+    <route>
+        <destination>10.9.10.0/24</destination>
+        <gateway>0.0.0.0</gateway>
+        <interface>Home</interface>
+        <metric>0</metric>
+    </route>
+    <route>
+        <destination>192.168.10.0/24</destination>
+        <gateway>0.0.0.0</gateway>
+        <interface>Switch0/VLAN3</interface>
+        <metric>0</metric>
+    </route>
+    <route>
+        <destination>0.0.0.0/0</destination>
+        <gateway>192.168.10.100</gateway>
+        <interface>Switch0/VLAN3</interface>
+        <metric>0</metric>
+    </route>
+    <!-- show netfilter -->
+    <netfilter>
+        <![CDATA[== Total entries size: 10144 ==
+== Hook PRE_ROUTING ==
+== Hook LOCAL_INPUT ==
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `lo' to `'
+Protocol: 0
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 2
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Jump to _NDM_IN
+
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Match: `conntrack' [104]
+Target name: `' [40]
+Verdict: `NF_DROP'
+
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Match: `conntrack' [104]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Match: `conntrack' [104]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Jump to _NDM_INPUT
+
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Jump to SL_PASS2
+
+== Hook FORWARD ==
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `lo' to `'
+Protocol: 0
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 224.0.0.0/4
+Interface: `' to `'
+Protocol: 0
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Jump to _NDM_IN
+
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Jump to _NDM_OUT
+
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Match: `conntrack' [104]
+Target name: `' [40]
+Verdict: `NF_DROP'
+
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Match: `conntrack' [104]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Match: `conntrack' [104]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Jump to _NDM_FORWARD
+
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Jump to SL_PASS2
+
+== Hook LOCAL_OUTPUT ==
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Jump to _NDM_OUT
+
+== Hook POST_ROUTING ==
+== Chain _NDM_IN ==
+== Chain _NDM_OUT ==
+== Chain SL_PASS1 ==
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `ra2'
+Protocol: 0
+Match: `conntrack' [104]
+Jump to SL_PASS2
+
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `ra3'
+Protocol: 0
+Match: `conntrack' [104]
+Jump to SL_PASS2
+
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `apcli0'
+Protocol: 0
+Match: `conntrack' [104]
+Jump to SL_PASS2
+
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `eth2.2'
+Protocol: 0
+Match: `conntrack' [104]
+Jump to SL_PASS2
+
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `eth2.3'
+Protocol: 0
+Match: `conntrack' [104]
+Jump to SL_PASS2
+
+== Chain SL_PASS2 ==
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `eth2.1' to `'
+Protocol: 0
+Match: `conntrack' [104]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `ra0' to `'
+Protocol: 0
+Match: `conntrack' [104]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `ra1' to `'
+Protocol: 0
+Match: `conntrack' [104]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [256]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `br0' to `'
+Protocol: 0
+Match: `conntrack' [104]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+== Chain _NDM_FORWARD ==
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Jump to _NDM_UPNP_FORWARD
+
+== Chain _NDM_INPUT ==
+== Chain _NDM_UPNP_FORWARD ==
+Entry [200]:
+SRC IP: 0.0.0.0/0
+DST IP: 10.9.10.16/32
+Interface: `eth2.3' to `'
+Protocol: 6
+Match: `tcp' [48]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [200]:
+SRC IP: 0.0.0.0/0
+DST IP: 10.9.10.16/32
+Interface: `eth2.3' to `'
+Protocol: 6
+Match: `tcp' [48]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [200]:
+SRC IP: 0.0.0.0/0
+DST IP: 10.9.10.16/32
+Interface: `eth2.3' to `'
+Protocol: 17
+Match: `udp' [48]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [200]:
+SRC IP: 0.0.0.0/0
+DST IP: 10.9.10.121/32
+Interface: `eth2.3' to `'
+Protocol: 6
+Match: `tcp' [48]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [200]:
+SRC IP: 0.0.0.0/0
+DST IP: 10.9.10.121/32
+Interface: `eth2.3' to `'
+Protocol: 17
+Match: `udp' [48]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [200]:
+SRC IP: 0.0.0.0/0
+DST IP: 10.9.10.16/32
+Interface: `eth2.3' to `'
+Protocol: 17
+Match: `udp' [48]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [200]:
+SRC IP: 0.0.0.0/0
+DST IP: 10.9.10.16/32
+Interface: `eth2.3' to `'
+Protocol: 6
+Match: `tcp' [48]
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+== Total entries size: 7112 ==
+== Hook PRE_ROUTING ==
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Jump to _NDM_DNAT
+
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Jump to _NDM_EZ_BYPASS
+
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Jump to _NDM_UPNP_REDIRECT
+
+Entry [216]:
+SRC IP: 0.0.0.0/0
+DST IP: 78.47.125.180/32
+Interface: `' to `'
+Protocol: 6
+Match: `tcp' [48]
+Target name: `DNAT' [56]
+
+Entry [216]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 17
+Match: `udp' [48]
+Target name: `REDIRECT' [56]
+
+== Hook LOCAL_INPUT ==
+== Hook FORWARD ==
+== Hook LOCAL_OUTPUT ==
+== Hook POST_ROUTING ==
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `' to `'
+Protocol: 0
+Jump to _NDM_SNAT
+
+Entry [168]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `br0' to `'
+Protocol: 0
+Target name: `MASQUERADE' [56]
+
+== Chain _NDM_DNAT ==
+== Chain _NDM_SNAT ==
+Entry [168]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `ra0' to `ra0'
+Protocol: 0
+Target name: `MASQUERADE' [56]
+
+Entry [168]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `ra1' to `ra1'
+Protocol: 0
+Target name: `MASQUERADE' [56]
+
+Entry [168]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `ra2' to `ra2'
+Protocol: 0
+Target name: `MASQUERADE' [56]
+
+Entry [168]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `ra3' to `ra3'
+Protocol: 0
+Target name: `MASQUERADE' [56]
+
+Entry [168]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `eth2.1' to `eth2.1'
+Protocol: 0
+Target name: `MASQUERADE' [56]
+
+Entry [168]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `br0' to `br0'
+Protocol: 0
+Target name: `MASQUERADE' [56]
+
+== Chain _NDM_EZ_BYPASS ==
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 192.168.10.223/32
+Interface: `' to `'
+Protocol: 0
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 10.1.30.1/32
+Interface: `' to `'
+Protocol: 0
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+Entry [152]:
+SRC IP: 0.0.0.0/0
+DST IP: 10.9.10.254/32
+Interface: `' to `'
+Protocol: 0
+Target name: `' [40]
+Verdict: `NF_ACCEPT'
+
+== Chain _NDM_SD_DNSREDIRECT ==
+== Chain _NDM_SD_WEBREDIRECT ==
+== Chain _NDM_UPNP_REDIRECT ==
+Entry [216]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `eth2.3' to `'
+Protocol: 6
+Match: `tcp' [48]
+Target name: `DNAT' [56]
+
+Entry [216]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `eth2.3' to `'
+Protocol: 6
+Match: `tcp' [48]
+Target name: `DNAT' [56]
+
+Entry [216]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `eth2.3' to `'
+Protocol: 17
+Match: `udp' [48]
+Target name: `DNAT' [56]
+
+Entry [216]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `eth2.3' to `'
+Protocol: 6
+Match: `tcp' [48]
+Target name: `DNAT' [56]
+
+Entry [216]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `eth2.3' to `'
+Protocol: 17
+Match: `udp' [48]
+Target name: `DNAT' [56]
+
+Entry [216]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `eth2.3' to `'
+Protocol: 17
+Match: `udp' [48]
+Target name: `DNAT' [56]
+
+Entry [216]:
+SRC IP: 0.0.0.0/0
+DST IP: 0.0.0.0/0
+Interface: `eth2.3' to `'
+Protocol: 6
+Match: `tcp' [48]
+Target name: `DNAT' [56]
+
+== Chain _NDM_YD_REDIRECT ==
+]]>
+    </netfilter>
+    <!-- show ntp status -->
+    <status>
+        <elapsed>321095</elapsed>
+        <server>0.pool.ntp.org</server>
+        <accurate>yes</accurate>
+        <synchronized>yes</synchronized>
+    </status>
+    <!-- show system -->
+    <hostname>Keenetic_Start</hostname>
+    <domainname>WG</domainname>
+    <cpuload>14</cpuload>
+    <memory>12844/29980</memory>
+    <swap>0/0</swap>
+    <memtotal>29980</memtotal>
+    <memfree>6676</memfree>
+    <membuffers>2116</membuffers>
+    <memcache>8344</memcache>
+    <swaptotal>0</swaptotal>
+    <swapfree>0</swapfree>
+    <uptime>2135512</uptime>
+    <!-- show tags -->
+    <tag>cli</tag>
+    <tag>readonly</tag>
+    <tag>http</tag>
+    <!-- show upnp redirect -->
+    <entry>
+        <index>0</index>
+        <interface>Switch0/VLAN3</interface>
+        <protocol>tcp</protocol>
+        <port>27512</port>
+        <to-address>10.9.10.16</to-address>
+        <to-port>27512</to-port>
+        <description>MediaGet2 2.01.3554 at 10.9.10.16:27512</description>
+        <packets>0</packets>
+        <bytes>0</bytes>
+    </entry>
+    <entry>
+        <index>1</index>
+        <interface>Switch0/VLAN3</interface>
+        <protocol>tcp</protocol>
+        <port>4433</port>
+        <to-address>10.9.10.16</to-address>
+        <to-port>4433</to-port>
+        <description>MediaGet2 2.01.3554 at 10.9.10.16:4433</description>
+        <packets>0</packets>
+        <bytes>0</bytes>
+    </entry>
+    <entry>
+        <index>2</index>
+        <interface>Switch0/VLAN3</interface>
+        <protocol>udp</protocol>
+        <port>27512</port>
+        <to-address>10.9.10.16</to-address>
+        <to-port>27512</to-port>
+        <description>MediaGet2 2.01.3554 at 10.9.10.16:27512</description>
+        <packets>0</packets>
+        <bytes>0</bytes>
+    </entry>
+    <entry>
+        <index>3</index>
+        <interface>Switch0/VLAN3</interface>
+        <protocol>tcp</protocol>
+        <port>18670</port>
+        <to-address>10.9.10.121</to-address>
+        <to-port>18670</to-port>
+        <description>NAT-PMP 2137420</description>
+        <packets>0</packets>
+        <bytes>0</bytes>
+    </entry>
+    <entry>
+        <index>4</index>
+        <interface>Switch0/VLAN3</interface>
+        <protocol>udp</protocol>
+        <port>18670</port>
+        <to-address>10.9.10.121</to-address>
+        <to-port>18670</to-port>
+        <description>NAT-PMP 2137421</description>
+        <packets>0</packets>
+        <bytes>0</bytes>
+    </entry>
+    <entry>
+        <index>5</index>
+        <interface>Switch0/VLAN3</interface>
+        <protocol>udp</protocol>
+        <port>20383</port>
+        <to-address>10.9.10.16</to-address>
+        <to-port>20383</to-port>
+        <description>NAT-PMP 2138332</description>
+        <packets>0</packets>
+        <bytes>0</bytes>
+    </entry>
+    <entry>
+        <index>6</index>
+        <interface>Switch0/VLAN3</interface>
+        <protocol>tcp</protocol>
+        <port>20383</port>
+        <to-address>10.9.10.16</to-address>
+        <to-port>20383</to-port>
+        <description>NAT-PMP 2138332</description>
+        <packets>0</packets>
+        <bytes>0</bytes>
+    </entry>
+    <!-- show version -->
+    <release>v2.02(AAKV.1)A4</release>
+    <date>17 Jun 2013</date>
+    <arch>mips</arch>
+    <manufacturer>ZyXEL</manufacturer>
+    <vendor>ZyXEL</vendor>
+    <series>Keenetic series</series>
+    <model>Keenetic</model>
+    <hw_version>02120000-D</hw_version>
+    <hw_id>kl_rd</hw_id>
+    <device>Keenetic Start</device>
+    <class>Internet Center</class>
+</selftest>
+
